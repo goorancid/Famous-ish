@@ -69,6 +69,9 @@
     padding: 0px !important;
     height: 50px !important;
 }
+.navbar {
+    margin-bottom: 0px !important;
+}
 @media (min-width: 768px) {
     .navbar .navbar-nav {
         display: inline-block;
