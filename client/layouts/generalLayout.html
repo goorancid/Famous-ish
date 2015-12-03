@@ -1,0 +1,27 @@
+<template name="generalLayout">
+  {{>head}}
+  <body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+
+      {{>header}}
+      <!-- Left side column. contains the logo and sidebar -->
+      {{>sideBar}}
+
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        {{>contentHeader}}
+        <!-- Main content -->
+        {{> yield}}
+      </div><!-- /.content-wrapper -->
+      {{>footer}}
+      <!-- Control Sidebar -->
+      {{>controlSideBar}}
+    </div><!-- ./wrapper -->
+
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+      $.widget.bridge('uibutton', $.ui.button);
+    </script>
+  </body>
+</template>
