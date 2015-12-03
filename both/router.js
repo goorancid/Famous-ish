@@ -1,4 +1,8 @@
-
+//////////////////////////////////////////////////////////
+//
+//
+//
+//////////////////////////////////////////////////////////
 FlowRouter.route('/about', {
     name: 'about',
     action: function() {
@@ -68,7 +72,11 @@ FlowRouter.route('/companies', {
         BlazeLayout.render('adminLayout', {main: 'companies'});
     }
 });
-
+//////////////////////////////////////////////////////////
+//
+//
+//
+//////////////////////////////////////////////////////////
 FlowRouter.route('/dashboard', {
     name: 'dashboard',
     action: function() {
@@ -80,5 +88,11 @@ FlowRouter.route('/searchCompany', {
     name: 'searchCompany',
     action: function() {
         BlazeLayout.render('adminLayout', {main: 'searchCompany'});
+    }
+});
+FlowRouter.route('/dashboard/calendar', {
+    name: 'calendar',
+    action: function() {
+        BlazeLayout.render('adminLayout', {main: 'calendar'});
     }
 });

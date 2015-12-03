@@ -11,7 +11,7 @@
  * @license MIT <http://opensource.org/licenses/MIT>
  */
 Meteor.startup(function(){
-  Template.generalLayout.onRendered(function () {
+  Template.adminLayout.onRendered(function () {
 
 
     /* ------------------
