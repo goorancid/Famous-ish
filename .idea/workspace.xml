@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28243564-d5bf-4833-8f2e-0492fce9e4b3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/partials/topnav.html" afterPath="$PROJECT_DIR$/client/partials/topnav.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/styles/frontend.css" afterPath="$PROJECT_DIR$/client/styles/frontend.css" />
     </list>
     <ignored path="blank.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/client/styles/frontend.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.268018">
-              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="29" selection-end-column="21" />
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -149,6 +148,7 @@
         <option value="$PROJECT_DIR$/client/lib/js/adminLTE.js" />
         <option value="$PROJECT_DIR$/client/lib/js/numato.js" />
         <option value="$PROJECT_DIR$/client/partials/topnav.html" />
+        <option value="$PROJECT_DIR$/client/styles/frontend.css" />
       </list>
     </option>
   </component>
@@ -757,7 +757,7 @@
     <entry file="file://$PROJECT_DIR$/client/styles/frontend.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.268018">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="29" selection-end-column="21" />
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
           <folding />
         </state>
       </provider>
