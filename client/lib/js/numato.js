@@ -119,7 +119,7 @@ Meteor.startup(function(){
         });
       });
 
-      Template.generalLayout.onRendered(function(){
+      Template.adminLayout.onRendered(function(){
         //Make the dashboard widgets sortable Using jquery UI
         $(".connectedSortable").sortable({
           placeholder: "sort-highlight",

@@ -1,4 +1,4 @@
-<template name="generalLayout">
+<template name="adminLayout">
   {{>head}}
   <body class="hold-transition skin-blue sidebar-mini">
     <div class="wrapper">
@@ -12,7 +12,7 @@
         <!-- Content Header (Page header) -->
         {{>contentHeader}}
         <!-- Main content -->
-        {{> yield}}
+        {{> Template.dynamic template=main}}
       </div><!-- /.content-wrapper -->
       {{>footer}}
       <!-- Control Sidebar -->

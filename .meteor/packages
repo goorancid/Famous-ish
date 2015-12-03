@@ -9,15 +9,17 @@ mobile-experience       # Packages for a great mobile UX
 mongo                   # The database Meteor supports right now
 blaze-html-templates    # Compile .html files into Meteor Blaze views
 session                 # Client-side reactive dictionary for your app
+jquery                  # Helpful client-side library
 tracker                 # Meteor's client-side reactive programming library
 
 standard-minifiers      # JS/CSS minifiers run for production mode
 es5-shim                # ECMAScript 5 compatibility for older browsers.
 ecmascript              # Enable ECMAScript2015+ syntax in app code
 
-autopublish             # Publish all data to the clients (for prototyping)
-insecure                # Allow all DB writes from clients (for prototyping)
-jquery
+
+
+kadira:flow-router                  #
+kadira:blaze-layout                 #
 mizzao:jquery-ui
 momentjs:moment
 dangrossman:bootstrap-daterangepicker
@@ -32,7 +34,6 @@ chhib:morris
 fastclick
 fortawesome:fontawesome
 pagebakers:ionicons
-iron:router
 maxharris9:meteor-bootstrap-slider
 rzymek:fullcalendar
 nemo64:bootstrap
@@ -40,3 +41,9 @@ mrt:flot
 natestrauser:select2
 bigdsk:inputmask
 tkornblit:icheck
+
+accounts-ui
+accounts-base
+accounts-google
+accounts-twitter
+accounts-facebook
