@@ -3,20 +3,20 @@
   <body class="hold-transition skin-blue sidebar-mini">
     <div class="wrapper">
 
-      {{>header}}
+      {{> topbar}}
       <!-- Left side column. contains the logo and sidebar -->
-      {{>sideBar}}
+      {{> sidebar}}
 
       <!-- Content Wrapper. Contains page content -->
       <div class="content-wrapper">
         <!-- Content Header (Page header) -->
-        {{>contentHeader}}
+        {{> contentHeader}}
         <!-- Main content -->
         {{> Template.dynamic template=main}}
       </div><!-- /.content-wrapper -->
-      {{>footer}}
+      {{> footer}}
       <!-- Control Sidebar -->
-      {{>controlSideBar}}
+      {{> controlSideBar}}
     </div><!-- ./wrapper -->
 
     <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
