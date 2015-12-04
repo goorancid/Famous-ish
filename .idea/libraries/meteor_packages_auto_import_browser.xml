@@ -103,10 +103,7 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/check/1.1.0/web.browser/match.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/reload/1.1.4/web.browser/deprecated.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/reload/1.1.4/web.browser/reload.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/mrt_bootstrap3-wysihtml5/0.3.3/web.browser/packages/mrt_bootstrap3-wysihtml5.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/fastclick/1.0.7/web.browser/pre.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/mrt_bootstrap3-wysihtml5/0.3.3/web.browser/packages/mrt_bootstrap3-wysihtml5/lib/bootstrap3-wysiwyg5-color.css" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/mrt_bootstrap3-wysihtml5/0.3.3/web.browser/packages/mrt_bootstrap3-wysihtml5/lib/bootstrap-wysihtml5.css" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/twbs_bootstrap/3.3.5/web.browser/packages/twbs_bootstrap.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/web.browser/sockjs-0.3.4.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/fastclick/1.0.7/web.browser/post.js" />
@@ -292,10 +289,7 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/check/1.1.0/web.browser/match.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/reload/1.1.4/web.browser/deprecated.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/reload/1.1.4/web.browser/reload.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/mrt_bootstrap3-wysihtml5/0.3.3/web.browser/packages/mrt_bootstrap3-wysihtml5.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/fastclick/1.0.7/web.browser/pre.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/mrt_bootstrap3-wysihtml5/0.3.3/web.browser/packages/mrt_bootstrap3-wysihtml5/lib/bootstrap3-wysiwyg5-color.css" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/mrt_bootstrap3-wysihtml5/0.3.3/web.browser/packages/mrt_bootstrap3-wysihtml5/lib/bootstrap-wysihtml5.css" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/twbs_bootstrap/3.3.5/web.browser/packages/twbs_bootstrap.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/web.browser/sockjs-0.3.4.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/fastclick/1.0.7/web.browser/post.js" />

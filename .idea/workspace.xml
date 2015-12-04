@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28243564-d5bf-4833-8f2e-0492fce9e4b3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/both/_config/_config.coffee" afterPath="$PROJECT_DIR$/both/_config/_config.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/both/router.js" afterPath="$PROJECT_DIR$/both/router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/lib/js/numato.js" afterPath="$PROJECT_DIR$/client/lib/js/numato.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/partials/homeFooter.html" afterPath="$PROJECT_DIR$/client/partials/homeFooter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/partials/topnav.html" afterPath="$PROJECT_DIR$/client/partials/topnav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/frontend/terms.html" afterPath="$PROJECT_DIR$/client/views/frontend/terms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/partials/sidebar.html" afterPath="$PROJECT_DIR$/client/partials/sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/dashboard1.html" afterPath="$PROJECT_DIR$/client/views/dashboard1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/frontend/privacy.html" afterPath="$PROJECT_DIR$/client/views/frontend/privacy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/mailbox/mailbox.html" afterPath="$PROJECT_DIR$/client/views/mailbox/mailbox.html" />
     </list>
     <ignored path="blank.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,41 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="topbar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/partials/topbar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.576923">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminLayout.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/layouts/adminLayouts/adminLayout.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/partials/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308">
-              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="homeFooter.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/partials/homeFooter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769">
-              <caret line="51" column="54" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+            <state vertical-scroll-proportion="-2.0769231">
+              <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -80,76 +56,135 @@
       <file leaf-file-name="privacy.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/views/frontend/privacy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="-2.6153846">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="router.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/both/router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.641189">
+              <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
+              <folding>
+                <element signature="e#154#266#0" expanded="false" />
+                <element signature="e#198#264#0" expanded="false" />
+                <element signature="e#298#414#0" expanded="false" />
+                <element signature="e#344#412#0" expanded="false" />
+                <element signature="e#442#550#0" expanded="false" />
+                <element signature="e#484#548#0" expanded="false" />
+                <element signature="e#575#685#0" expanded="false" />
+                <element signature="e#618#683#0" expanded="false" />
+                <element signature="e#717#833#0" expanded="false" />
+                <element signature="e#763#831#0" expanded="false" />
+                <element signature="e#865#981#0" expanded="false" />
+                <element signature="e#911#979#0" expanded="false" />
+                <element signature="e#1014#1132#0" expanded="false" />
+                <element signature="e#1061#1130#0" expanded="false" />
+                <element signature="e#1164#1280#0" expanded="false" />
+                <element signature="e#1210#1278#0" expanded="false" />
+                <element signature="e#1310#1422#0" expanded="false" />
+                <element signature="e#1354#1420#0" expanded="false" />
+                <element signature="e#1456#1577#0" expanded="false" />
+                <element signature="e#1504#1575#0" expanded="false" />
+                <element signature="e#1582#1640#0" expanded="false" />
+                <element signature="e#1740#1861#0" expanded="false" />
+                <element signature="e#1896#2019#0" expanded="false" />
+                <element signature="e#2058#2187#0" expanded="false" />
+                <element signature="e#2110#2185#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="versions" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.meteor/versions">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="49.11111">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="terms.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/views/frontend/terms.html">
+      <file leaf-file-name="dashboard1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/dashboard1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/both/router.js">
+      <file leaf-file-name="packages" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.meteor/packages">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="97" column="3" selection-start-line="97" selection-start-column="3" selection-end-line="97" selection-end-column="3" />
+            <state vertical-scroll-proportion="-1.6666666">
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mailbox.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/mailbox/mailbox.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.1923075">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/partials/sidebar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.6538463">
+              <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
               <folding>
-                <element signature="e#154#266#0" expanded="false" />
-                <element signature="e#198#264#0" expanded="false" />
-                <element signature="e#299#415#0" expanded="false" />
-                <element signature="e#345#413#0" expanded="false" />
-                <element signature="e#444#552#0" expanded="false" />
-                <element signature="e#486#550#0" expanded="false" />
-                <element signature="e#578#688#0" expanded="false" />
-                <element signature="e#621#686#0" expanded="false" />
-                <element signature="e#721#837#0" expanded="false" />
-                <element signature="e#767#835#0" expanded="false" />
-                <element signature="e#870#986#0" expanded="false" />
-                <element signature="e#916#984#0" expanded="false" />
-                <element signature="e#1020#1138#0" expanded="false" />
-                <element signature="e#1067#1136#0" expanded="false" />
-                <element signature="e#1171#1287#0" expanded="false" />
-                <element signature="e#1217#1285#0" expanded="false" />
-                <element signature="e#1318#1430#0" expanded="false" />
-                <element signature="e#1362#1428#0" expanded="false" />
-                <element signature="e#1465#1586#0" expanded="false" />
-                <element signature="e#1513#1584#0" expanded="false" />
-                <element signature="e#1589#1647#0" expanded="false" />
-                <element signature="e#1747#1868#0" expanded="false" />
-                <element signature="e#1795#1866#0" expanded="false" />
-                <element signature="e#1907#2036#0" expanded="false" />
-                <element signature="e#1959#2034#0" expanded="false" />
-                <element signature="e#2079#2198#0" expanded="false" />
+                <element signature="n#li#2;n#ul#0;n#section#0;n#aside#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="n#li#3;n#ul#0;n#section#0;n#aside#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="n#li#4;n#ul#0;n#section#0;n#aside#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="n#li#5;n#ul#0;n#section#0;n#aside#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="n#li#6;n#ul#0;n#section#0;n#aside#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="n#li#7;n#ul#0;n#section#0;n#aside#0;n#template#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helpers.coffee" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/partials/helpers.coffee">
+      <file leaf-file-name="numato.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/lib/js/numato.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.037037">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_config.coffee" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/both/_config/_config.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.4074073">
-              <caret line="7" column="45" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="45" />
-              <folding />
+            <state vertical-scroll-proportion="-4.1034484">
+              <caret line="585" column="23" selection-start-line="585" selection-start-column="23" selection-end-line="585" selection-end-column="23" />
+              <folding>
+                <element signature="e#73#2929#0" expanded="false" />
+                <element signature="e#2974#3092#0" expanded="false" />
+                <element signature="e#3141#3210#0" expanded="false" />
+                <element signature="e#3259#3855#0" expanded="false" />
+                <element signature="e#3907#4330#0" expanded="false" />
+                <element signature="e#4381#4470#0" expanded="false" />
+                <element signature="e#4523#7017#0" expanded="false" />
+                <element signature="e#7070#7131#0" expanded="false" />
+                <element signature="e#7185#10182#0" expanded="false" />
+                <element signature="e#10240#14006#0" expanded="false" />
+                <element signature="e#14066#17185#0" expanded="false" />
+                <element signature="e#17237#18732#0" expanded="false" />
+                <element signature="e#18784#18837#0" expanded="false" />
+                <element signature="e#18885#20590#0" expanded="false" />
+                <element signature="e#20645#20907#0" expanded="false" />
+                <element signature="e#20956#27241#0" expanded="false" />
+                <element signature="e#27329#36348#0" expanded="false" />
+                <element signature="e#36397#44272#0" expanded="false" />
+                <element signature="e#44323#52967#0" expanded="false" />
+                <element signature="e#53018#55963#0" expanded="false" />
+                <element signature="e#56019#57948#0" expanded="false" />
+                <element signature="e#58004#58052#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,23 +197,27 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.meteor/packages" />
         <option value="$PROJECT_DIR$/client/layouts/generalLayout.html" />
-        <option value="$PROJECT_DIR$/both/router.js" />
         <option value="$PROJECT_DIR$/client/layouts/trashtemplates.html" />
         <option value="$PROJECT_DIR$/client/lib/js/adminLTE.js" />
-        <option value="$PROJECT_DIR$/client/lib/js/numato.js" />
         <option value="$PROJECT_DIR$/client/styles/frontend.css" />
         <option value="$PROJECT_DIR$/client/layouts/frontendLayouts/frontendLayout.html" />
-        <option value="$PROJECT_DIR$/client/partials/sidebar.html" />
         <option value="$PROJECT_DIR$/client/partials/head.html" />
         <option value="$PROJECT_DIR$/client/index.html" />
         <option value="$PROJECT_DIR$/client/layouts/adminLayouts/adminLayout.html" />
         <option value="$PROJECT_DIR$/client/partials/footer.html" />
         <option value="$PROJECT_DIR$/both/_config/_config.coffee" />
         <option value="$PROJECT_DIR$/client/partials/topnav.html" />
-        <option value="$PROJECT_DIR$/client/partials/homeFooter.html" />
         <option value="$PROJECT_DIR$/client/views/frontend/terms.html" />
+        <option value="$PROJECT_DIR$/client/partials/homeFooter.html" />
+        <option value="$PROJECT_DIR$/client/views/frontend/privacy.html" />
+        <option value="$PROJECT_DIR$/client/views/mailbox/mailbox.html" />
+        <option value="$PROJECT_DIR$/client/views/dashboard1.html" />
+        <option value="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/mrt_bootstrap3-wysihtml5.js" />
+        <option value="$PROJECT_DIR$/.meteor/packages" />
+        <option value="$PROJECT_DIR$/client/partials/sidebar.html" />
+        <option value="$PROJECT_DIR$/both/router.js" />
+        <option value="$PROJECT_DIR$/client/lib/js/numato.js" />
       </list>
     </option>
   </component>
@@ -283,11 +322,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blank" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
+              <option name="myItemId" value=".meteor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -385,7 +434,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1641318" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1634981" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -433,31 +482,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/partials/helpers.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/both/_config/_config.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -486,7 +520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -494,7 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -518,7 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -526,7 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -542,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -550,7 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -558,7 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -566,7 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -574,15 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/forms/advanced.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -590,23 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/mailbox/mailbox.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/mailbox/readMail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -621,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -639,13 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/lib/js/numato.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="121" column="26" selection-start-line="121" selection-start-column="26" selection-end-line="121" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/lib/js/adminLTE.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43404254">
@@ -657,7 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -679,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19738752">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -687,14 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.meteor/packages">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8517442">
-          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -702,7 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -710,7 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -718,15 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/partials/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3063063">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -734,37 +705,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/partials/helpers.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.037037">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/partials/topbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/both/_config/_config.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.4074073">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/partials/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
+        <state vertical-scroll-proportion="0.0">
           <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
           <folding />
         </state>
@@ -782,42 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/both/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="3" selection-start-line="97" selection-start-column="3" selection-end-line="97" selection-end-column="3" />
-          <folding>
-            <element signature="e#154#266#0" expanded="false" />
-            <element signature="e#198#264#0" expanded="false" />
-            <element signature="e#299#415#0" expanded="false" />
-            <element signature="e#345#413#0" expanded="false" />
-            <element signature="e#444#552#0" expanded="false" />
-            <element signature="e#486#550#0" expanded="false" />
-            <element signature="e#578#688#0" expanded="false" />
-            <element signature="e#621#686#0" expanded="false" />
-            <element signature="e#721#837#0" expanded="false" />
-            <element signature="e#767#835#0" expanded="false" />
-            <element signature="e#870#986#0" expanded="false" />
-            <element signature="e#916#984#0" expanded="false" />
-            <element signature="e#1020#1138#0" expanded="false" />
-            <element signature="e#1067#1136#0" expanded="false" />
-            <element signature="e#1171#1287#0" expanded="false" />
-            <element signature="e#1217#1285#0" expanded="false" />
-            <element signature="e#1318#1430#0" expanded="false" />
-            <element signature="e#1362#1428#0" expanded="false" />
-            <element signature="e#1465#1586#0" expanded="false" />
-            <element signature="e#1513#1584#0" expanded="false" />
-            <element signature="e#1589#1647#0" expanded="false" />
-            <element signature="e#1747#1868#0" expanded="false" />
-            <element signature="e#1795#1866#0" expanded="false" />
-            <element signature="e#1907#2036#0" expanded="false" />
-            <element signature="e#1959#2034#0" expanded="false" />
-            <element signature="e#2079#2198#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -826,10 +736,42 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/frontend/terms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/both/_config/_config.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.038288288">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/partials/helpers.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3063063">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/partials/topbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="24.846153">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/partials/homeFooter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
-          <caret line="51" column="54" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+        <state vertical-scroll-proportion="-2.0769231">
+          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -844,17 +786,137 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/views/frontend/privacy.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/forms/advanced.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8337078">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/mailbox/readMail.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/frontend/terms.html">
+    <entry file="file://$PROJECT_DIR$/client/views/mailbox/mailbox.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/partials/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6538463">
+          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+          <folding>
+            <element signature="n#li#2;n#ul#0;n#section#0;n#aside#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#li#3;n#ul#0;n#section#0;n#aside#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#li#4;n#ul#0;n#section#0;n#aside#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#li#5;n#ul#0;n#section#0;n#aside#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#li#6;n#ul#0;n#section#0;n#aside#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#li#7;n#ul#0;n#section#0;n#aside#0;n#template#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.meteor/versions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="49.11111">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/lib/js/numato.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.1034484">
+          <caret line="585" column="23" selection-start-line="585" selection-start-column="23" selection-end-line="585" selection-end-column="23" />
+          <folding>
+            <element signature="e#73#2929#0" expanded="false" />
+            <element signature="e#2974#3092#0" expanded="false" />
+            <element signature="e#3141#3210#0" expanded="false" />
+            <element signature="e#3259#3855#0" expanded="false" />
+            <element signature="e#3907#4330#0" expanded="false" />
+            <element signature="e#4381#4470#0" expanded="false" />
+            <element signature="e#4523#7017#0" expanded="false" />
+            <element signature="e#7070#7131#0" expanded="false" />
+            <element signature="e#7185#10182#0" expanded="false" />
+            <element signature="e#10240#14006#0" expanded="false" />
+            <element signature="e#14066#17185#0" expanded="false" />
+            <element signature="e#17237#18732#0" expanded="false" />
+            <element signature="e#18784#18837#0" expanded="false" />
+            <element signature="e#18885#20590#0" expanded="false" />
+            <element signature="e#20645#20907#0" expanded="false" />
+            <element signature="e#20956#27241#0" expanded="false" />
+            <element signature="e#27329#36348#0" expanded="false" />
+            <element signature="e#36397#44272#0" expanded="false" />
+            <element signature="e#44323#52967#0" expanded="false" />
+            <element signature="e#53018#55963#0" expanded="false" />
+            <element signature="e#56019#57948#0" expanded="false" />
+            <element signature="e#58004#58052#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/dashboard1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.meteor/packages">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6666666">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/both/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.641189">
+          <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
+          <folding>
+            <element signature="e#154#266#0" expanded="false" />
+            <element signature="e#198#264#0" expanded="false" />
+            <element signature="e#298#414#0" expanded="false" />
+            <element signature="e#344#412#0" expanded="false" />
+            <element signature="e#442#550#0" expanded="false" />
+            <element signature="e#484#548#0" expanded="false" />
+            <element signature="e#575#685#0" expanded="false" />
+            <element signature="e#618#683#0" expanded="false" />
+            <element signature="e#717#833#0" expanded="false" />
+            <element signature="e#763#831#0" expanded="false" />
+            <element signature="e#865#981#0" expanded="false" />
+            <element signature="e#911#979#0" expanded="false" />
+            <element signature="e#1014#1132#0" expanded="false" />
+            <element signature="e#1061#1130#0" expanded="false" />
+            <element signature="e#1164#1280#0" expanded="false" />
+            <element signature="e#1210#1278#0" expanded="false" />
+            <element signature="e#1310#1422#0" expanded="false" />
+            <element signature="e#1354#1420#0" expanded="false" />
+            <element signature="e#1456#1577#0" expanded="false" />
+            <element signature="e#1504#1575#0" expanded="false" />
+            <element signature="e#1582#1640#0" expanded="false" />
+            <element signature="e#1740#1861#0" expanded="false" />
+            <element signature="e#1896#2019#0" expanded="false" />
+            <element signature="e#2058#2187#0" expanded="false" />
+            <element signature="e#2110#2185#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

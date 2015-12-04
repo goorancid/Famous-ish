@@ -525,7 +525,7 @@ Meteor.startup(function(){
         $("#compose-textarea").wysihtml5();
       });
 
-      Template.mailboxPage.onRendered(function(){
+      Template.mailbox.onRendered(function(){
           $(function () {
             //Enable iCheck plugin for checkboxes
             //iCheck for checkbox and radio inputs
@@ -583,7 +583,7 @@ Meteor.startup(function(){
         });
       });
 
-      Template.calendarPage.onRendered(function(){
+      Template.calendar.onRendered(function(){
             /* initialize the external events
              -----------------------------------------------------------------*/
             function ini_events(ele) {
