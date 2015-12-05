@@ -67,6 +67,18 @@ exposed.route('/login', {
         BlazeLayout.render('adminLayout', {main: 'login'});
     }
 });
+exposed.route('/signup', {
+    name: 'signup',
+    action: function() {
+        BlazeLayout.render('adminLayout', {main: 'signup'});
+    }
+});
+exposed.route('/forgot', {
+    name: 'forgot',
+    action: function() {
+        BlazeLayout.render('adminLayout', {main: 'forgot'});
+    }
+});
 
 //////////////////////////////////////////////////////////
 //
