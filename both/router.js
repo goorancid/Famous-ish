@@ -64,7 +64,7 @@ exposed.route('/terms', {
 exposed.route('/login', {
     name: 'login',
     action: function() {
-        BlazeLayout.render('loginLayout', {main: 'login'});
+        BlazeLayout.render('adminLayout', {main: 'login'});
     }
 });
 

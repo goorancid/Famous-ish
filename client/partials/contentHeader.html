@@ -1,10 +1,22 @@
 <!-- Content Header (Page header) -->
 <template name="contentHeader">
-	<section class="content-header">
+	{{#if currentUser}}
+
+    <section class="content-header">
 	  <h1>
 	    {{title}}
 	    <small>Control panel</small>
 	  </h1>
-	  {{>breadcrumb}}
+	  {{> breadcrumb}}
 	</section>
+
+    {{else}}
+        {{> unloggedContentHeader}}
+    {{/if}}
+</template>
+
+<template name="unloggedContentHeader">
+    <section class="content-header">
+
+    </section>
 </template>
