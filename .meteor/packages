@@ -18,32 +18,53 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 
 
 
-kadira:flow-router                  #
-kadira:blaze-layout                 #
-mizzao:jquery-ui
-momentjs:moment
-dangrossman:bootstrap-daterangepicker
-less
-jameslefrere:autoform-jquery-knob
-jackyqiu:meteor-jvectormap
-mrt:bootstrap3-wysihtml5
-benmgreene:jquery-sparklines
-agnito:raphael
-rochal:slimscroll
-chhib:morris
-fastclick
-fortawesome:fontawesome
-pagebakers:ionicons
-maxharris9:meteor-bootstrap-slider
-rzymek:fullcalendar
-nemo64:bootstrap
-mrt:flot
-natestrauser:select2
-bigdsk:inputmask
-tkornblit:icheck
+accounts-base                             # A user account system
+accounts-facebook                         # Login service for Facebook accounts
+accounts-google                           # Login service for Google accounts
+accounts-password                         # Password support for accounts
+accounts-twitter                          # Login service for Twitter accounts
+accounts-ui                               # Simple templates to add login widgets to an app
 
-accounts-ui
-accounts-base
-accounts-google
-accounts-twitter
-accounts-facebook
+agnito:raphael                            # Raphael - JavaScript Vector Library
+
+benmgreene:jquery-sparklines              # A reactive blaze component for rendering live jQuery Sparklines.
+bigdsk:inputmask                          # JQuery InputMask for Meteor
+
+chhib:morris                              # Wrapper for Morris.js (good-looking charts)
+
+dangrossman:bootstrap-daterangepicker     # Date range picker component for Bootstrap
+
+fastclick                                 # Faster touch events on mobile
+fortawesome:fontawesome                   # Font Awesome (official): 500+ scalable vector icons, customizable via CSS, Retina friendly
+
+jackyqiu:meteor-jvectormap                # Plugin for embedding vector maps with reach API and methods for data visualization to the web-pages.
+jameslefrere:autoform-jquery-knob         # jQuery Knob input type for Autoform
+
+kadira:blaze-layout                       # Layout Manager for Blaze (works well with FlowRouter)
+kadira:flow-router                        # Carefully Designed Client Side Router for Meteor
+
+less                                      # Leaner CSS language
+
+maxharris9:meteor-bootstrap-slider        # A bootstrap slider control for meteor 0.9.1+.
+mizzao:jquery-ui                          # Simple lightweight pull-in for jQuery UI in Meteor
+momentjs:moment                           # Moment.js (official): parse, validate, manipulate, and display dates - official Meteor packaging
+mrt:flot                                  # flot is a library for jQuery, with a focus on simple usage, attractive looks and interactive feature
+
+natestrauser:select2                      # Select2 is a jQuery based replacement for select boxes.
+nemo64:bootstrap                          #
+
+pagebakers:ionicons                       #
+
+rochal:slimscroll                         #
+rzymek:fullcalendar                       #
+
+tkornblit:icheck                          #
+
+
+aldeed:autoform
+alanning:roles
+aldeed:collection2
+aldeed:simple-schema
+zimme:active-route
+raix:handlebar-helpers
+spiderable

@@ -1,0 +1,131 @@
+<template name="login">
+    <div class="container">
+        <div class="sign-box ">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3" id="login-block">
+                <i class="user-img icons-faces-users-03"></i>
+                <div class="account-info">
+                    <a href="dashboard.html" class="logo"></a>
+                    <h3>Modular &amp; Flexible Admin.</h3>
+                    <ul>
+                        <li><i class="icon-magic-wand"></i> Fully customizable</li>
+                        <li><i class="icon-layers"></i> Various sibebars look</li>
+                        <li><i class="icon-arrow-right"></i> RTL direction support</li>
+                        <li><i class="icon-drop"></i> Colors options</li>
+                    </ul>
+                </div>
+                <div class="account-form">
+                    <form class="form-signin" role="form">
+                        <h3><strong>Sign in</strong> to your account</h3>
+                        <div class="append-icon">
+                            <input type="text" name="name" id="name" class="form-control form-white username" placeholder="Username" required>
+                            <i class="icon-user"></i>
+                        </div>
+                        <div class="append-icon m-b-20">
+                            <input type="password" name="password" class="form-control form-white password" placeholder="Password" required>
+                            <i class="icon-lock"></i>
+                        </div>
+                        <button type="submit" id="submit-form" class="btn btn-lg btn-dark btn-rounded ladda-button" data-style="expand-left">Sign In</button>
+                        <span class="forgot-password"><a id="password" href="forgot">Forgot password?</a></span>
+                        <div class="form-footer">
+                            <div class="social-btn">
+                                <button type="button" class="btn-fb btn btn-lg btn-block btn-square"><i class="fa fa-facebook pull-left"></i>Connect with Facebook</button>
+                                <button type="button" class="btn btn-lg btn-block btn-blue btn-square"><i class="fa fa-twitter pull-left"></i>Login with Twitter</button>
+                            </div>
+                            <div class="clearfix">
+                                <p class="new-here"><a href="signup">New here? Sign up</a></p>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<template name="signup">
+    <div class="container" id="login-block">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                <div class="account-wall">
+                    <form class="form-signup" action="dashboard.html" role="form">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="append-icon">
+                                    <input type="text" name="firstname" id="firstname" class="form-control form-white firstname" placeholder="First Name" required autofocus>
+                                    <i class="icon-user"></i>
+                                </div>
+                            </div> <!--First Name-->
+                            <div class="col-sm-6">
+                                <div class="append-icon">
+                                    <input type="text" name="lastname" id="lastname" class="form-control form-white lastname" placeholder="Last Name" required>
+                                    <i class="icon-user"></i>
+                                </div>
+                            </div> <!--Last Name-->
+                        </div>
+
+                        <div class="append-icon">
+                            <input type="email" name="email" id="email" class="form-control form-white email" placeholder="Email" required>
+                            <i class="icon-envelope"></i>
+                        </div> <!--Email -->
+                        <div class="append-icon">
+                            <input type="password" name="password" id="password" class="form-control form-white password" placeholder="Password" required>
+                            <i class="icon-lock"></i>
+                        </div> <!--Password-->
+                        <div class="append-icon m-b-20">
+                            <input type="password" name="password" id="password2" class="form-control form-white password2" placeholder="Repeat Password" required>
+                            <i class="icon-lock"></i>
+                        </div> <!--Password Verify-->
+
+                        <div class="terms option-group">
+                            <label  for="terms" class="m-t-10">
+                                <input type="checkbox" name="terms" id="terms" data-checkbox="icheckbox_square-blue" required/>
+                                I agree with terms and conditions
+                            </label>
+                        </div>
+
+                        <button type="submit" id="submit-form" class="btn btn-lg btn-dark m-t-20" data-style="expand-left">Register</button>
+
+                        <div class="social-auth-links">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <button type="button" class="btn btn-lg btn-block btn-primary"><i class="fa fa-facebook pull-left"></i>Sign In with Facebook</button>
+                                </div>
+                                <div class="col-sm-6">
+                                    <button type="button" class="btn btn-lg btn-block btn-danger"><i class="fa fa-google pull-left"></i>Sign In with Google</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="clearfix">
+                            <p class="pull-right m-t-20"><a href="login">Already have an account? Sign In</a></p>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <p class="account-copyright">
+            <span>{{Config.footer}}</span>
+        </p>
+    </div>
+</template>
+
+<template name="forgot">
+    <div class="container">
+        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+            <form class="form-password" role="form">
+                <h3>Reset Password</h3>
+                <div class="append-icon m-b-20">
+                    <input type="password" name="password" class="form-control form-white password" placeholder="Password" required>
+                    <i class="icon-lock"></i>
+                </div>
+                <button type="submit" id="submit-password" class="btn btn-danger btn-block" data-style="expand-left">Reset Password</button>
+                <div class="clearfix">
+                    <p class="pull-left"><a id="login" href="login">Have an account? Login.</a></p>
+                    <p class="pull-right"><a href="signup">New here? Sign up.</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</template>

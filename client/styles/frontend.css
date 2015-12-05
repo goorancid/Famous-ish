@@ -27,7 +27,6 @@
 .home-one {
     background-color: white;
     height: 100vh;
-    margin-top: 50px;
     background-position: center;
     background-size: cover;
     background-image: url("/img/Dollarphotoclub_71102189.jpg");
@@ -70,6 +69,10 @@
     padding: 0px !important;
     height: 50px !important;
 }
+.navbar {
+    margin-bottom: 0px !important;
+}
+
 @media (min-width: 768px) {
     .navbar .navbar-nav {
         display: inline-block;
@@ -83,13 +86,25 @@
 /***********************************************************************
 *    1.   Body
 ***********************************************************************/
-
+.frontend {
+    background-color: lightgrey;
+}
 
 /***********************************************************************
-*    1.   Body
+*    1.   Footer
 ***********************************************************************/
-
-
+ .fa-facebook-square {
+     color: #3b5998 !important;
+ }
+.fa-twitter-square {
+    color: #4099FF !important;
+}
+.fa-google-plus-square {
+    color: #db4a39 !important;
+}
+.fa-pinterest-square {
+    color: #C92228 !important;
+}
 /***********************************************************************
 *    1.   Body
 ***********************************************************************/

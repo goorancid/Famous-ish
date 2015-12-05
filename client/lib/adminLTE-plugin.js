@@ -112,7 +112,7 @@
      * @type plugin
      * @usage $("#todo-widget").todolist( options );
      */
-     console.log("adminLTE-lib");
+
     (function ($) {
 
       'use strict';

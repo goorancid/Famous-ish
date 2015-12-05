@@ -3,96 +3,152 @@
 //
 //
 //////////////////////////////////////////////////////////
-FlowRouter.route('/about', {
+var exposed;
+
+exposed = FlowRouter.group({});
+
+exposed.route('/about', {
     name: 'about',
     action: function() {
         BlazeLayout.render('homeLayout', {main: 'about'});
     }
 });
-
-FlowRouter.route('/contact', {
+exposed.route('/contact', {
     name: 'contact',
     action: function() {
         BlazeLayout.render('homeLayout', {main: 'contact'});
     }
 });
-
-FlowRouter.route('/faq', {
+exposed.route('/faq', {
     name: 'faq',
     action: function() {
         BlazeLayout.render('homeLayout', {main: 'faq'});
     }
 });
-
-FlowRouter.route('/', {
+exposed.route('/', {
     name: 'home',
     action: function() {
         BlazeLayout.render('homeLayout', {main: 'home'});
     }
 });
-
-FlowRouter.route('/pricing', {
+exposed.route('/pricing', {
     name: 'pricing',
     action: function() {
         BlazeLayout.render('homeLayout', {main: 'pricing'});
     }
 });
-
-FlowRouter.route('/privacy', {
+exposed.route('/privacy', {
     name: 'privacy',
     action: function() {
         BlazeLayout.render('homeLayout', {main: 'privacy'});
     }
 });
-
-FlowRouter.route('/services', {
+exposed.route('/services', {
     name: 'services',
     action: function() {
         BlazeLayout.render('homeLayout', {main: 'services'});
     }
 });
-
-FlowRouter.route('/support', {
+exposed.route('/support', {
     name: 'support',
     action: function() {
         BlazeLayout.render('homeLayout', {main: 'support'});
     }
 });
-
-FlowRouter.route('/terms', {
+exposed.route('/terms', {
     name: 'terms',
     action: function() {
         BlazeLayout.render('homeLayout', {main: 'terms'});
     }
 });
-
-FlowRouter.route('/companies', {
-    name: 'companies',
+exposed.route('/login', {
+    name: 'login',
     action: function() {
-        BlazeLayout.render('adminLayout', {main: 'companies'});
+        BlazeLayout.render('adminLayout', {main: 'login'});
     }
 });
+exposed.route('/signup', {
+    name: 'signup',
+    action: function() {
+        BlazeLayout.render('adminLayout', {main: 'signup'});
+    }
+});
+exposed.route('/forgot', {
+    name: 'forgot',
+    action: function() {
+        BlazeLayout.render('adminLayout', {main: 'forgot'});
+    }
+});
+
 //////////////////////////////////////////////////////////
 //
 //
 //
 //////////////////////////////////////////////////////////
-FlowRouter.route('/dashboard', {
+var logged;
+
+logged = FlowRouter.group({
+    triggersEnter: [
+        function() {
+            var route;
+            if (!(Meteor.loggingIn() || Meteor.userId())) {
+                route = FlowRouter.current();
+                if (route.route.name !== 'login') {
+                    Session.set('redirectAfterLogin', route.path);
+                }
+                return FlowRouter.go("login");
+            }
+        }
+    ]
+});
+
+logged.route('/dashboard', {
     name: 'dashboard',
     action: function() {
         BlazeLayout.render('adminLayout', {main: 'dashboard'});
     }
 });
+logged.route('/dashboard2', {
+    name: 'dashboard2',
+    action: function() {
+        BlazeLayout.render('adminLayout', {main: 'dashboard2'});
+    }
+});
 
-FlowRouter.route('/searchCompany', {
+logged.route('/dashboard/companies', {
+    name: 'companies',
+    action: function() {
+        BlazeLayout.render('adminLayout', {main: 'companies'});
+    }
+});
+logged.route('/searchCompany', {
     name: 'searchCompany',
     action: function() {
         BlazeLayout.render('adminLayout', {main: 'searchCompany'});
     }
 });
-FlowRouter.route('/dashboard/calendar', {
+
+logged.route('/dashboard/calendar', {
     name: 'calendar',
     action: function() {
         BlazeLayout.render('adminLayout', {main: 'calendar'});
     }
 });
+logged.route('/dashboard/mailbox', {
+    name: 'mailbox',
+    action: function() {
+        BlazeLayout.render('adminLayout', {main: 'mailbox'});
+    }
+});
+
+Accounts.onLogin(function() {
+    var redirect;
+    redirect = Session.get("redirectAfterLogin");
+    if (redirect != null) {
+        if (redirect !== 'login') {
+            return FlowRouter.go(redirect);
+        }
+    }
+});
+
+
