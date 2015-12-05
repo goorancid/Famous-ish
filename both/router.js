@@ -133,8 +133,10 @@ Accounts.onLogin(function() {
     var redirect;
     redirect = Session.get("redirectAfterLogin");
     if (redirect != null) {
-        if (redirect !== '/login') {
+        if (redirect !== 'login') {
             return FlowRouter.go(redirect);
         }
     }
 });
+
+
