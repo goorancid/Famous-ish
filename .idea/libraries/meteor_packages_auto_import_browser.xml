@@ -12,6 +12,7 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/srp/1.0.4/web.browser/biginteger.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/twitter/1.1.5/web.browser/twitter_configure.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/twitter/1.1.5/web.browser/twitter_client.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/zimme_active-route/2.3.2/web.browser/packages/zimme_active-route.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/accounts-google/1.0.6/web.browser/google_login_button.css" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/accounts-google/1.0.6/web.browser/google.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/accounts-oauth/1.1.8/web.browser/oauth_common.js" />
@@ -28,6 +29,10 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/oauth/1.1.6/web.browser/oauth_common.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/oauth/1.1.6/web.browser/deprecated.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/oauth/1.1.6/web.browser/oauth_client.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/spiderable/1.0.9/web.browser/spiderable.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/spiderable/1.0.9/web.browser/spiderable_client.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/raix_handlebar-helpers/0.2.5/web.browser/common.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/raix_handlebar-helpers/0.2.5/web.browser/helpers.operators.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/babel-runtime/0.1.4/web.browser/babel-runtime.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/momentjs_moment/2.10.6/web.browser/packages/momentjs_moment.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/base64/1.0.4/web.browser/base64.js" />
@@ -208,6 +213,7 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/srp/1.0.4/web.browser/biginteger.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/twitter/1.1.5/web.browser/twitter_configure.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/twitter/1.1.5/web.browser/twitter_client.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/zimme_active-route/2.3.2/web.browser/packages/zimme_active-route.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/accounts-google/1.0.6/web.browser/google_login_button.css" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/accounts-google/1.0.6/web.browser/google.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/accounts-oauth/1.1.8/web.browser/oauth_common.js" />
@@ -224,6 +230,10 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/oauth/1.1.6/web.browser/oauth_common.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/oauth/1.1.6/web.browser/deprecated.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/oauth/1.1.6/web.browser/oauth_client.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/spiderable/1.0.9/web.browser/spiderable.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/spiderable/1.0.9/web.browser/spiderable_client.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/raix_handlebar-helpers/0.2.5/web.browser/common.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/raix_handlebar-helpers/0.2.5/web.browser/helpers.operators.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/babel-runtime/0.1.4/web.browser/babel-runtime.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/momentjs_moment/2.10.6/web.browser/packages/momentjs_moment.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/base64/1.0.4/web.browser/base64.js" />
