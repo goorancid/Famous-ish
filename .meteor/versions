@@ -2,6 +2,7 @@ accounts-base@1.2.2
 accounts-facebook@1.0.6
 accounts-google@1.0.6
 accounts-oauth@1.1.8
+accounts-password@1.1.4
 accounts-twitter@1.0.6
 accounts-ui@1.1.6
 accounts-ui-unstyled@1.1.8
@@ -38,6 +39,7 @@ diff-sequence@1.0.1
 ecmascript@0.1.6
 ecmascript-runtime@0.2.6
 ejson@1.0.7
+email@1.0.8
 es5-shim@4.1.14
 facebook@1.2.2
 fastclick@1.0.7
@@ -75,6 +77,7 @@ mrt:flot@1.0.6
 natestrauser:select2@4.0.0_1
 nemo64:bootstrap@3.3.5_2
 nemo64:bootstrap-data@3.3.5
+npm-bcrypt@0.7.8_2
 npm-mongo@1.4.39_1
 oauth@1.1.6
 oauth1@1.1.5
@@ -94,8 +97,10 @@ routepolicy@1.0.6
 rzymek:fullcalendar@2.4.0
 service-configuration@1.0.5
 session@1.1.1
+sha@1.0.4
 spacebars@1.0.7
 spacebars-compiler@1.0.7
+srp@1.0.4
 standard-minifiers@1.0.2
 templating@1.1.5
 templating-tools@1.0.0

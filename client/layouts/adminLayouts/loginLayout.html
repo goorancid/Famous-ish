@@ -1,0 +1,21 @@
+<template name="loginLayout">
+    <body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+
+        {{> topbar}}
+        {{> sidebar}}
+
+
+        <div class="content-wrapper">
+            {{> Template.dynamic template=main}}
+        </div>
+        {{> footer}}
+
+    </div><!-- ./wrapper -->
+
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+        $.widget.bridge('uibutton', $.ui.button);
+    </script>
+    </body>
+</template>

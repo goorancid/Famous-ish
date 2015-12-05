@@ -18,31 +18,44 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 
 
 
-kadira:flow-router                  #
-kadira:blaze-layout                 #
-mizzao:jquery-ui
-momentjs:moment
-dangrossman:bootstrap-daterangepicker
-less
-jameslefrere:autoform-jquery-knob
-jackyqiu:meteor-jvectormap
-benmgreene:jquery-sparklines
-agnito:raphael
-rochal:slimscroll
-chhib:morris
-fastclick
-fortawesome:fontawesome
-pagebakers:ionicons
-maxharris9:meteor-bootstrap-slider
-rzymek:fullcalendar
-nemo64:bootstrap
-mrt:flot
-natestrauser:select2
-bigdsk:inputmask
-tkornblit:icheck
+accounts-base                             #
+accounts-facebook                         #
+accounts-google                           #
+accounts-password                         #
+accounts-twitter                          #
+accounts-ui                               #
 
-accounts-ui
-accounts-base
-accounts-google
-accounts-twitter
-accounts-facebook
+agnito:raphael                            #
+
+benmgreene:jquery-sparklines              #
+bigdsk:inputmask                          #
+
+chhib:morris                              #
+
+dangrossman:bootstrap-daterangepicker     #
+
+fastclick                                 #
+fortawesome:fontawesome                   #
+
+jackyqiu:meteor-jvectormap                #
+jameslefrere:autoform-jquery-knob         #
+
+kadira:blaze-layout                       #
+kadira:flow-router                        #
+
+less                                      #
+
+maxharris9:meteor-bootstrap-slider        #
+mizzao:jquery-ui                          #
+momentjs:moment                           #
+mrt:flot                                  #
+
+natestrauser:select2                      #
+nemo64:bootstrap                          #
+
+pagebakers:ionicons                       #
+
+rochal:slimscroll                         #
+rzymek:fullcalendar                       #
+
+tkornblit:icheck                          #

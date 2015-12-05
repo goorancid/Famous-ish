@@ -64,7 +64,7 @@ exposed.route('/terms', {
 exposed.route('/login', {
     name: 'login',
     action: function() {
-        BlazeLayout.render('adminLayout', {main: 'login'});
+        BlazeLayout.render('loginLayout', {main: 'login'});
     }
 });
 
@@ -126,5 +126,15 @@ logged.route('/dashboard/mailbox', {
     name: 'mailbox',
     action: function() {
         BlazeLayout.render('adminLayout', {main: 'mailbox'});
+    }
+});
+
+Accounts.onLogin(function() {
+    var redirect;
+    redirect = Session.get("redirectAfterLogin");
+    if (redirect != null) {
+        if (redirect !== '/login') {
+            return FlowRouter.go(redirect);
+        }
     }
 });
