@@ -121,10 +121,15 @@ logged.route('/dashboard/companies', {
         BlazeLayout.render('adminLayout', {main: 'companies'});
     }
 });
-logged.route('/searchCompany', {
+logged.route('/dashboard/searchCompany', {
     name: 'searchCompany',
     action: function() {
         BlazeLayout.render('adminLayout', {main: 'searchCompany'});
+    }
+});
+logged.route('/dashboard/company/:_id', {
+    action: function( params ) {
+        BlazeLayout.render('adminLayout', {main: 'company'});
     }
 });
 
