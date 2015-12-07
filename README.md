@@ -9,12 +9,12 @@ Made with AdminLTE2.
 
 
 Routes
-Routes are made using FlowRouter by kadirahq
+Routes are made using FlowRouter by kadirahq https://github.com/kadirahq/flow-router
 Currently using javascript (as of 07 Dec 2015) but will translate into coffeescript files at some point in the future
 Located in /both/routes.js
 
 Templates
-Templates are formatted to utilize Blaze-Layout by kadirahq
+Templates are formatted to utilize Blaze-Layout by kadirahq https://github.com/kadirahq/blaze-layout
 Located in /client/templates
 
 CSS Styling
