@@ -9,21 +9,21 @@ Made with AdminLTE2.
 
 
 ### Routes
-*Located in /both/routes.js
-*Routes are made using [FlowRouter by kadirahq](https://github.com/kadirahq/flow-router)
-*Currently using javascript (as of 07 Dec 2015) but will translate into coffeescript files at some point in the future
+######Located in /both/routes.js
+######Routes are made using [FlowRouter by kadirahq](https://github.com/kadirahq/flow-router)
+######Currently using javascript (as of 07 Dec 2015) but will translate into coffeescript files at some point in the future
 
 
 ### Templates
-*Located in /client/templates
-*Templates are formatted to utilize [Blaze-Layout by kadirahq](https://github.com/kadirahq/blaze-layout) 
+######Located in /client/templates
+######Templates are formatted to utilize [Blaze-Layout by kadirahq](https://github.com/kadirahq/blaze-layout) 
 
 
 ### CSS Styling
-*Located in /client/styles
-*Utilizes the Bootstrap package (current version 3.3.6 as of 07 Dec 2015) 
-*Additional formatting and overrides are split into frontend and admin-side files
+######Located in /client/styles
+######Utilizes the Bootstrap package (current version 3.3.6 as of 07 Dec 2015) 
+######Additional formatting and overrides are split into frontend and admin-side files
 
 
 ### Glyphicons
-*Provided by Fortawesomes Fontawesome package
+######Provided by Fortawesomes Fontawesome package
