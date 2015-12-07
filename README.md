@@ -6,3 +6,21 @@ A meteor webapp with both frontend and admin pages utlizing FlowRouter.
 Made with AdminLTE2. 
 
 !!!!Use on your own accord, under heavy development as of 05 Dec 2015!!!!
+
+
+Routes
+Routes are made using FlowRouter by kadirahq
+Currently using javascript (as of 07 Dec 2015) but will translate into coffeescript files at some point in the future
+Located in /both/routes.js
+
+Templates
+Templates are formatted to utilize Blaze-Layout by kadirahq
+Located in /client/templates
+
+CSS Styling
+Utilizes the Bootstrap package (current version 3.3.6 as of 07 Dec 2015) 
+Additional formatting and overrides are split into frontend and admin-side files
+Located in /client/styles
+
+Glyphicons
+Provided by Fortawesomes Fontawesome package
