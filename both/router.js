@@ -146,14 +146,14 @@ logged.route('/dashboard/mailbox', {
     }
 });
 
-Accounts.onLogin(function() {
-    var redirect;
-    redirect = Session.get("redirectAfterLogin");
-    if (redirect != null) {
-        if (redirect !== 'login') {
-            return FlowRouter.go(redirect);
-        }
-    }
-});
+//Accounts.onLogin(function() {
+//    var redirect;
+//    redirect = Session.get("redirectAfterLogin");
+//    if (redirect != null) {
+//        if (redirect !== 'login') {
+//            return FlowRouter.go(redirect);
+//        }
+//    }
+//});
 
 
