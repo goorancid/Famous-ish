@@ -62,23 +62,174 @@ exposed.route('/terms', {
     }
 });
 exposed.route('/login', {
-    name: 'login',
-    action: function() {
-        BlazeLayout.render('adminLayout', {main: 'login'});
+    name: 'entrySignIn',
+    triggersEnter: [
+        function(context, redirect) {
+            Session.set('entryError', undefined);
+            Session.set('buttonText', 'in');
+        }
+    ],
+    action: function(params) {
+        var pkgRendered, userRendered;
+
+        if (Meteor.userId()) {
+            redirect(AccountsEntry.settings.dashboardRoute);
+        }
+        if (AccountsEntry.settings.signInTemplate) {
+            this.template = AccountsEntry.settings.signInTemplate;
+            pkgRendered = Template.entrySignIn.rendered;
+            userRendered = Template[this.template].rendered;
+            if (userRendered) {
+                Template[this.template].rendered = function() {
+                    pkgRendered.call(this);
+                    return userRendered.call(this);
+                };
+            } else {
+                Template[this.template].rendered = pkgRendered;
+            }
+            Template[this.template].events(AccountsEntry.entrySignInEvents);
+            Template[this.template].helpers(AccountsEntry.entrySignInHelpers);
+        }
+        BlazeLayout.render('adminLayout', {main: 'entrySignIn'});
     }
 });
 exposed.route('/signup', {
-    name: 'signup',
-    action: function() {
-        BlazeLayout.render('adminLayout', {main: 'signup'});
+    name: 'entrySignUp',
+    triggersEnter: [
+        function(context, redirect) {
+            Session.set('entryError', undefined);
+            Session.set('buttonText', 'up');
+        }
+    ],
+    action: function(params) {
+        var pkgRendered, userRendered;
+        if (AccountsEntry.settings.signUpTemplate) {
+            this.template = AccountsEntry.settings.signUpTemplate;
+
+            // If the user has a custom template, and not using the helper, then
+            // maintain the package Javascript so that OpenGraph tags and share
+            // buttons still work.
+            pkgRendered = Template.entrySignUp.rendered;
+            userRendered = Template[this.template].rendered;
+
+            if (userRendered) {
+                Template[this.template].rendered = function() {
+                    pkgRendered.call(this);
+                    return userRendered.call(this);
+                };
+            } else {
+                Template[this.template].rendered = pkgRendered;
+            }
+
+            Template[this.template].events(AccountsEntry.entrySignUpEvents);
+            Template[this.template].helpers(AccountsEntry.entrySignUpHelpers);
+        }
+        BlazeLayout.render('adminLayout', {main: 'entrySignUp'});
     }
 });
+
+clearEntryError = function(context, redirect) {
+    Session.set('entryError', undefined);
+};
 exposed.route('/forgot', {
-    name: 'forgot',
+    name: 'entryForgotPassword',
+    triggersEnter: [clearEntryError],
     action: function() {
-        BlazeLayout.render('adminLayout', {main: 'forgot'});
+        BlazeLayout.render('adminLayout', {main: 'entryForgotPassword'});
     }
 });
+
+
+
+FlowRouter.route('/sign-out', {
+    name: 'entrySignOut',
+    triggersEnter: [
+        function(context, redirect) {
+            Session.set('entryError', undefined);
+            if (AccountsEntry.settings.homeRoute) {
+                Meteor.logout(function() {
+                    return FlowRouter.go(AccountsEntry.settings.homeRoute);
+                });
+            }
+        }
+    ],
+    action: function() {
+        FlowLayout.render('entrySignOut');
+    }
+});
+
+FlowRouter.route('/verification-pending', {
+    name: 'entryVerificationPending',
+    triggersEnter: [clearEntryError],
+    action: function() {
+        FlowLayout.render('entryVerificationPending');
+    }
+});
+
+FlowRouter.route('/reset-password/:resetToken', {
+    name: 'entryResetPassword',
+    triggersEnter: [
+        function(context, redirect) {
+            Session.set('entryError', undefined);
+            Session.set('resetToken', this.params.resetToken);
+        }
+    ],
+    action: function() {
+        FlowLayout.render('entryResetPassword');
+    }
+});
+
+FlowRouter.route('/enroll-account/:resetToken', {
+    name: 'entryEnrollAccount',
+    triggersEnter: [
+        function(context, redirect) {
+            Session.set('entryError', undefined);
+            Session.set('resetToken', this.params.resetToken);
+        }
+    ],
+    action: function() {
+        FlowLayout.render('entryEnrollAccount');
+    }
+});
+
+AccountsEntryRouteList = [
+    'entrySignIn',
+    'entrySignUp',
+    'entryForgotPassword',
+    'entrySignOut',
+    'entryVerificationPending',
+    'entryResetPassword',
+    'entryEnrollAccount'
+];
+
+// set the fromWhere when you leave any path except the en
+FlowRouter.triggers.exit([
+        function(context) {
+            Session.set('fromWhere', context.path);
+        }
+    ],
+    { except: AccountsEntryRouteList }
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //////////////////////////////////////////////////////////
 //
@@ -86,7 +237,6 @@ exposed.route('/forgot', {
 //
 //////////////////////////////////////////////////////////
 var logged;
-
 logged = FlowRouter.group({
     triggersEnter: [
         function() {
@@ -101,7 +251,6 @@ logged = FlowRouter.group({
         }
     ]
 });
-
 logged.route('/dashboard', {
     name: 'dashboard',
     action: function() {
@@ -114,7 +263,6 @@ logged.route('/dashboard2', {
         BlazeLayout.render('adminLayout', {main: 'dashboard2'});
     }
 });
-
 logged.route('/dashboard/companies', {
     name: 'companies',
     action: function() {
@@ -132,7 +280,6 @@ logged.route('/dashboard/company/:_id', {
         BlazeLayout.render('adminLayout', {main: 'company'});
     }
 });
-
 logged.route('/dashboard/calendar', {
     name: 'calendar',
     action: function() {
@@ -145,23 +292,11 @@ logged.route('/dashboard/mailbox', {
         BlazeLayout.render('adminLayout', {main: 'mailbox'});
     }
 });
-
-
 logged.route('/profile', {
     name: 'profile',
     action: function() {
         BlazeLayout.render('adminLayout', {main: 'profile'});
     }
 });
-
-//Accounts.onLogin(function() {
-//    var redirect;
-//    redirect = Session.get("redirectAfterLogin");
-//    if (redirect != null) {
-//        if (redirect !== 'login') {
-//            return FlowRouter.go(redirect);
-//        }
-//    }
-//});
 
 

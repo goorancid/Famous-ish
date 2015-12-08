@@ -30,12 +30,12 @@ Template.entrySocial.events
       Session.set 'talkingToServer', false
       if (!err)
         if Session.get('fromWhere')
-          Router.go Session.get('fromWhere')
+          FlowRouter.go Session.get('fromWhere')
           Session.set('fromWhere', undefined)
         else
-          Router.go AccountsEntry.settings.dashboardRoute
+          FlowRouter.go AccountsEntry.settings.dashboardRoute
       else if (err instanceof Accounts.LoginCancelledError)
-        # do nothing
+# do nothing
       else if (err instanceof ServiceConfiguration.ConfigError)
         Accounts._loginButtonsSession.configureService(serviceName)
       else
