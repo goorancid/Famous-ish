@@ -1,56 +1,67 @@
 <template name="login">
     <div class="container">
-
-
-        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-            <div class="box-danger">
-                    <div class="sign-box ">
-                        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3" id="login-block">
-                            <i class="user-img icons-faces-users-03"></i>
-                            <div class="account-info">
-                                <h3>Modular &amp; Flexible Admin.</h3>
-                                <ul>
-                                    <li><i class="fa fa-newspaper-o"></i> Fully customizable</li>
-                                    <li><i class="fa fa-th-list"></i> Various sibebars look</li>
-                                    <li><i class="fa fa-bars"></i> RTL direction support</li>
-                                    <li><i class="fa fa-bookmark"></i> Colors options</li>
-                                </ul>
-                            </div>
-                            <div class="account-form col-xs-9">
-                                <form class="form-signin" role="form">
-                                    <h3><strong>Sign in</strong> to your account</h3>
-                                    <div class="append-icon">
-                                        <input type="text" name="name" id="name" class="form-control form-white username" placeholder="Username" required>
-                                        <i class="icon-user"></i>
-                                    </div>
-                                    <div class="append-icon m-b-20">
-                                        <input type="password" name="password" class="form-control form-white password" placeholder="Password" required>
-                                        <i class="icon-lock"></i>
-                                    </div>
-                                    <button type="submit" id="submit-form" class="btn btn-lg btn-dark btn-rounded ladda-button" data-style="expand-left">Sign In</button>
-                                    <br>
-                                    <span class="forgot-password"><a id="password" href="forgot">Forgot password?</a></span>
-                                    <div class="form-footer">
-                                        <div class="social-btn">
-                                            <button type="button" class="btn-fb btn btn-lg btn-block btn-square"><i class="fa fa-facebook pull-left"></i>Connect with Facebook</button>
-                                            <button type="button" class="btn btn-lg btn-block btn-blue btn-square"><i class="fa fa-twitter pull-left"></i>Login with Twitter</button>
-                                        </div>
-                                        <div class="clearfix">
-                                            <p class="new-here"><a href="signup">New here? Sign up</a></p>
-                                        </div>
-                                    </div>
-                                </form>
-
-                            </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                <div class="account-wall">
+                    <form class="form-signup" action="dashboard.html" role="form">
+                        <div class="account-info">
+                            <h3>Modular &amp; Flexible Admin.</h3>
+                            <ul>
+                                <li><i class="fa fa-newspaper-o"></i> Fully customizable</li>
+                                <li><i class="fa fa-th-list"></i> Various sibebars look</li>
+                                <li><i class="fa fa-bars"></i> RTL direction support</li>
+                                <li><i class="fa fa-bookmark"></i> Colors options</li>
+                            </ul>
                         </div>
-                    </div>
+                        <div class="account-form">
+                            <form class="form-signin" role="form">
+                                <h3><strong>Sign in</strong> to your account</h3>
+                                <div class="append-icon">
+                                    <input type="text" name="name" id="name" class="form-control form-white username" placeholder="Username" required>
+                                    <i class="icon-user"></i>
+                                </div>
+                                <div class="append-icon m-b-20">
+                                    <input type="password" name="password" class="form-control form-white password" placeholder="Password" required>
+                                    <i class="icon-lock"></i>
+                                </div>
+                                <button type="submit" id="submit-form" class="btn btn-lg btn-dark btn-rounded ladda-button" data-style="expand-left">Sign In</button>
+                                <br>
+                                <span class="forgot-password"><a id="password" href="forgot">Forgot password?</a></span>
+                                <div class="form-footer">
+                                    <div class="boots">
+                                        <div class="login-text-and-button">
+                                            <a class="btn btn-primary btn-block" href="#" role="button"><i class="fa fa-facebook pull-left"></i>Login with Facebook</a>
+                                        </div>
+                                        <div class="login-text-and-button">
+                                            <a class="btn btn-info btn-block" href="#" role="button"><i class="fa fa-twitter pull-left"></i>Login with Twitter</a>
+                                        </div>
+                                        <div class="login-text-and-button">
+                                            <a class="btn btn-danger btn-block" href="#" role="button"><i class="fa fa-google-plus pull-left"></i>Login with Gmail</a>
+                                        </div>
+                                        <div class="login-button single-login-button configure-button" id="login-buttons-facebook">
+                                            <div class="login-image" id="login-buttons-image-facebook"></div>
+                                            <span class="text-besides-image configure-text-facebook">Configure Facebook Login</span>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix">
+                                        <p class="new-here"><a href="signup">New here? Sign up</a></p>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                        {{> loginButtons}}
+
+
+                    </form>
+                </div>
             </div>
         </div>
     </div>
 </template>
 
 <template name="signup">
-    <div class="container" id="login-block">
+    <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
                 <div class="account-wall">

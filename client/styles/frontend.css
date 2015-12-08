@@ -66,13 +66,21 @@
 ***********************************************************************/
 
 .navbar-brand {
-    padding: 0px !important;
+    padding: 0 !important;
     height: 50px !important;
 }
 .navbar {
-    margin-bottom: 0px !important;
+    margin-bottom: 0 !important;
 }
-
+.navbar-btn {
+    color: white !important;
+    padding-bottom: 6px !important;
+    padding-top: 6px !important;
+}
+.navbar-btn:hover {
+    color: black !important;
+    background-color: #D73925 !important;
+}
 @media (min-width: 768px) {
     .navbar .navbar-nav {
         display: inline-block;
@@ -93,17 +101,41 @@
 /***********************************************************************
 *    1.   Footer
 ***********************************************************************/
- .fa-facebook-square {
+.fa-facebook-square {
      color: #3b5998 !important;
  }
+.fa-facebook-square:hover {
+    color: #5D7DC0 !important;
+}
 .fa-twitter-square {
     color: #4099FF !important;
+}
+.fa-twitter-square:hover {
+    color: #85BEFF !important;
 }
 .fa-google-plus-square {
     color: #db4a39 !important;
 }
+.fa-google-plus-square:hover {
+    color: #E68075 !important;
+}
 .fa-pinterest-square {
     color: #C92228 !important;
+}
+.fa-pinterest-square:hover {
+    color: #E46266 !important;
+}
+.fa-pied-piper {
+    color: #2E9D48 !important;
+}
+.fa-pied-piper:hover {
+    color: #61D17B !important;
+}
+.fa-youtube-square {
+    color: #D62927 !important;
+}
+.fa-youtube-square:hover {
+    color: #E36664 !important;
 }
 /***********************************************************************
 *    1.   Body
