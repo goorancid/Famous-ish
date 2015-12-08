@@ -146,6 +146,14 @@ logged.route('/dashboard/mailbox', {
     }
 });
 
+
+logged.route('/profile', {
+    name: 'profile',
+    action: function() {
+        BlazeLayout.render('adminLayout', {main: 'profile'});
+    }
+});
+
 //Accounts.onLogin(function() {
 //    var redirect;
 //    redirect = Session.get("redirectAfterLogin");

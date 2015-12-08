@@ -258,7 +258,6 @@ Schemas.User = new SimpleSchema(
     regEx: /^[a-z0-9A-Z_]{3,15}$/
     optional: true
 
-  
   emails:
     type: [Object]
     optional: true
