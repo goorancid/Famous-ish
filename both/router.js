@@ -70,26 +70,25 @@ exposed.route('/login', {
         }
     ],
     action: function(params) {
-        var pkgRendered, userRendered;
-
-        if (Meteor.userId()) {
-            redirect(AccountsEntry.settings.dashboardRoute);
-        }
-        if (AccountsEntry.settings.signInTemplate) {
-            this.template = AccountsEntry.settings.signInTemplate;
-            pkgRendered = Template.entrySignIn.rendered;
-            userRendered = Template[this.template].rendered;
-            if (userRendered) {
-                Template[this.template].rendered = function() {
-                    pkgRendered.call(this);
-                    return userRendered.call(this);
-                };
-            } else {
-                Template[this.template].rendered = pkgRendered;
-            }
-            Template[this.template].events(AccountsEntry.entrySignInEvents);
-            Template[this.template].helpers(AccountsEntry.entrySignInHelpers);
-        }
+//        var pkgRendered, userRendered;
+//        if (Meteor.userId()) {
+// redirect(AccountsEntry.settings.dashboardRoute);
+//       }
+//        if (AccountsEntry.settings.signInTemplate) {
+//            this.template = AccountsEntry.settings.signInTemplate;
+//            pkgRendered = Template.entrySignIn.rendered;
+//            userRendered = Template[this.template].rendered;
+//            if (userRendered) {
+//                Template[this.template].rendered = function() {
+//                    pkgRendered.call(this);
+//                    return userRendered.call(this);
+//                };
+//            } else {
+//                Template[this.template].rendered = pkgRendered;
+//            },
+//            Template[this.template].events(AccountsEntry.entrySignInEvents);
+//            Template[this.template].helpers(AccountsEntry.entrySignInHelpers);
+//        }
         BlazeLayout.render('adminLayout', {main: 'entrySignIn'});
     }
 });

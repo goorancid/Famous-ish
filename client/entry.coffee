@@ -6,7 +6,7 @@ AccountsEntry =
     passwordSignupFields: 'EMAIL_ONLY'
     emailToLower: true
     usernameToLower: false
-    entrySignUp: '/sign-up'
+    entrySignUp: '/signup'
     extraSignUpFields: []
     showOtherLoginServices: true
     fluidLayout: false

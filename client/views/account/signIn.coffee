@@ -11,7 +11,7 @@ AccountsEntry.entrySignInHelpers = {
     if _.contains([
       'USERNAME_AND_EMAIL'
       'USERNAME_AND_OPTIONAL_EMAIL'
-      ], fields)
+    ], fields)
       return t9n("usernameOrEmail")
     else if fields == "USERNAME_ONLY"
       return t9n("username")
@@ -32,7 +32,7 @@ AccountsEntry.entrySignInEvents = {
 
     email = $('input[name="email"]').val()
     if (AccountsEntry.isStringEmail(email) and AccountsEntry.settings.emailToLower) or
-     (not AccountsEntry.isStringEmail(email) and AccountsEntry.settings.usernameToLower)
+      (not AccountsEntry.isStringEmail(email) and AccountsEntry.settings.usernameToLower)
       email = email.toLowerCase()
 
     Session.set('email', email)
