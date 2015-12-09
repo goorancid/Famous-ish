@@ -1,7 +1,8 @@
 en =
-  signIn: "Sign In"
-  signin: "sign in"
-  signOut: "Sign Out"
+  signIn: "Login"
+  signInAccount: "Login to your Account"
+  signin: "login"
+  signOut: "Log Out"
   signUp: "Register"
   OR: "OR"
   forgotPassword: "Forgot your password?"

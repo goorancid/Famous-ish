@@ -1,3 +1,9 @@
+
+Template.entrySignUp.helpers(AccountsEntry.entrySignUpHelpers)
+
+Template.entrySignUp.events(AccountsEntry.entrySignUpEvents)
+
+
 AccountsEntry.hashPassword = (password) ->
   digest: SHA256(password),
   algorithm: "sha-256"
@@ -173,7 +179,3 @@ AccountsEntry.entrySignUpEvents = {
         Session.set 'entryError', t9n("error.signupCodeIncorrect")
         return
 }
-
-Template.entrySignUp.helpers(AccountsEntry.entrySignUpHelpers)
-
-Template.entrySignUp.events(AccountsEntry.entrySignUpEvents)

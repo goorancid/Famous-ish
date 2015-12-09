@@ -7,6 +7,7 @@
                 </div>
             {{/if}}
             <div class="entry col-md-4 col-md-offset-4">
+                <h3>{{t9n "signInAccount"}}</h3>
                 {{#if otherLoginServices}}
                     <div class="entry-social">
                         {{#each loginServices}}
@@ -61,7 +62,7 @@
             <div class="entry col-md-4 col-md-offset-4">
                 <h3>{{t9n "createAccount"}}</h3>
                 {{#if otherLoginServices}}
-                    <p class="entry-signin-cta">{{t9n "ifYouAlreadyHaveAnAccount"}} <a href="entrySignIn">{{t9n "signin"}}</a>.</p>
+                    <p class="entry-signin-cta">{{t9n "ifYouAlreadyHaveAnAccount"}} <a href="login">{{t9n "signin"}}</a>.</p>
                     <div class="entry-social">
                         {{#each loginServices}}
                             {{> entrySocial}}
@@ -84,10 +85,9 @@
                         {{#if showUsername}}
                             <div class="form-group">
                                 <label>{{t9n "username"}}</label>
-                                <input autofocus name="username" type="string" class="form-control" value=''  autocapitalize="none" autocomplete="off" autocorrect="off">
+                                <input autofocus name="username" type="string" class="form-control" value='' autocapitalize="none" autocomplete="off" autocorrect="off">
                             </div>
                         {{/if}}
-
                         {{#if showEmail}}
                             <div class="form-group">
                                 <label>{{t9n "emailAddress"}}</label>
@@ -107,7 +107,7 @@
                         {{#if showSignupCode}}
                             <div class="form-group">
                                 <label>{{t9n "signupCode"}}</label>
-                                <input name="signupCode" type="string" class="form-control" value=''  autocapitalize="none" autocomplete="off" autocorrect="off" >
+                                <input name="signupCode" type="string" class="form-control" value='' autocapitalize="none" autocomplete="off" autocorrect="off" >
                             </div>
                         {{/if}}
 
@@ -117,14 +117,14 @@
                 {{/if}}
                 {{#if both}}
                     <p class="entry-agreement">{{t9n "clickAgree"}}
-                        <a href="{{privacyUrl}}">{{t9n "privacyPolicy"}}</a> {{t9n "and"}}
-                        <a href="{{termsUrl}}">{{t9n "terms"}}</a>.
+                        <a href="privacy">{{t9n "privacyPolicy"}}</a> {{t9n "and"}}
+                        <a href="terms">{{t9n "terms"}}</a>.
                     </p>
                 {{else}}
                     {{#unless neither}}
                         <p class="entry-agreement">{{t9n "clickAgree"}}
-                            {{#if privacyUrl}}<a href="{{privacyUrl}}">{{t9n "privacyPolicy"}}</a>.{{/if}}
-                            {{#if termsUrl}}<a href="{{termsUrl}}">{{t9n "terms"}}</a>.{{/if}}
+                            {{#if privacyUrl}}<a href="privacy">{{t9n "privacyPolicy"}}</a>.{{/if}}
+                            {{#if termsUrl}}<a href="terms">{{t9n "terms"}}</a>.{{/if}}
                         </p>
                     {{/unless}}
                 {{/if}}
@@ -153,10 +153,44 @@
                     <div class="form-group">
                         <input type="email" name="forgottenEmail" class="form-control" placeholder="{{t9n 'emailAddress'}}" value=''>
                     </div>
+                    <button type="submit" class="submit btn btn-block btn-danger">{{t9n 'emailResetLink'}}</button>
+                </form>
+                <p class="entry-signup-cta">{{t9n "dontHaveAnAccount"}} <a href="signup">{{t9n "signUp"}}</a></p>
+                <p class="entry-signin-cta">{{t9n "ifYouAlreadyHaveAnAccount"}} <a href="login">{{t9n "signin"}}</a>.</p>
+
+
+
+
+
+                {{#if talkingToServer}}
+                    {{> spinner}}
+                {{/if}}
+            </div>
+        </div>
+    </div>
+</template>
+
+<template name="resetPassword">
+    <div class="{{containerCSSClass}}">
+        <div class="{{rowCSSClass}}">
+            {{#if logo}}
+                <div class="entry-logo">
+                    <a href="/"><img src="{{logo}}" alt="logo"></a>
+                </div>
+            {{/if}}
+            <div class="entry col-md-4 col-md-offset-4">
+                {{#if error}}
+                    <div class='alert alert-danger'>{{error}}</div>
+                {{/if}}
+                <h3>{{t9n 'forgotPassword'}}</h3>
+                <form id='forgotPassword'>
+                    <div class="form-group">
+                        <input type="email" name="forgottenEmail" class="form-control" placeholder="{{t9n 'emailAddress'}}" value=''>
+                    </div>
                     <button type="submit" class="btn btn-default">{{t9n 'emailResetLink'}}</button>
                 </form>
                 {{#if showSignupCode}}
-                    <p class="entry-signup-cta">{{t9n 'dontHaveAnAccount'}} <a href="entrySignUp">{{t9n 'signUp'}}</a></p>
+                    <p class="entry-signup-cta">{{t9n 'dontHaveAnAccount'}} <a href="signup">{{t9n 'signUp'}}</a></p>
                 {{/if}}
                 {{#if talkingToServer}}
                     {{> spinner}}

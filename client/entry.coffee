@@ -2,17 +2,25 @@ AccountsEntry =
   settings:
     wrapLinks: true
     homeRoute: '/'
-    dashboardRoute: '/dashboard'
-    passwordSignupFields: 'EMAIL_ONLY'
+    dashboardRoute: 'dashboard'
+    passwordSignupFields: 'USERNAME_AND_OPTIONAL_EMAIL'
     emailToLower: true
     usernameToLower: false
-    entrySignUp: 'login'
+    entrySignUp: 'signup'
     extraSignUpFields: []
     showOtherLoginServices: true
     fluidLayout: false
     useContainer: true
     signInAfterRegistration: true
     emailVerificationPendingRoute: '/verification-pending'
+    privacyUrl: [
+      'privacy'
+      true
+    ]
+    termsUrl: [
+      'terms'
+      true
+    ]
     showSpinner: true
     spinnerOptions: { color: "#000", top: "80%" }
 

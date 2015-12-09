@@ -6,7 +6,7 @@ AccountsEntry =
     passwordSignupFields: 'EMAIL_ONLY'
     emailToLower: true
     usernameToLower: false
-    entrySignUp: '/sign-up'
+    entrySignUp: 'signup'
     extraSignUpFields: []
     showOtherLoginServices: true
     fluidLayout: false
@@ -28,7 +28,7 @@ AccountsEntry =
       T9n.language = appConfig.language
 
     if appConfig.signUpTemplate
-      signUpRoute = Router.routes['entrySignUp']
+      signUpRoute = Router.routes['signup']
       signUpRoute.options.template = appConfig.signUpTemplate
 
 @AccountsEntry = AccountsEntry
