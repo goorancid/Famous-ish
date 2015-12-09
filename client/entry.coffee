@@ -6,7 +6,7 @@ AccountsEntry =
     passwordSignupFields: 'EMAIL_ONLY'
     emailToLower: true
     usernameToLower: false
-    entrySignUp: '/signup'
+    entrySignUp: 'login'
     extraSignUpFields: []
     showOtherLoginServices: true
     fluidLayout: false
@@ -34,8 +34,8 @@ AccountsEntry =
 @AccountsEntry = AccountsEntry
 
 AccountsEntrySignInRequired = (context, redirect) ->
-  if !_.contains(AccountsEntryRouteList, context.route.name) and 
-     !Meteor.loggingIn() and !Meteor.user()
+  if !_.contains(AccountsEntryRouteList, context.route.name) and
+    !Meteor.loggingIn() and !Meteor.user()
     Session.set 'fromWhere', context.path
     redirect '/sign-in'
     Session.set('entryError', t9n('error.signInRequired'))

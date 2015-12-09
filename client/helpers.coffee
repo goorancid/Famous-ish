@@ -24,8 +24,8 @@ UI.registerHelper 'signedIn', ->
 
 UI.registerHelper 'otherLoginServices', ->
   AccountsEntry.settings.showOtherLoginServices &&
-  Accounts.oauth &&
-  Accounts.oauth.serviceNames().length > 0
+    Accounts.oauth &&
+    Accounts.oauth.serviceNames().length > 0
 
 UI.registerHelper 'loginServices', ->
   Accounts.oauth.serviceNames()
@@ -41,7 +41,7 @@ UI.registerHelper 'showCreateAccountLink', ->
 
 UI.registerHelper 'fluidLayout', ->
   AccountsEntry.settings.fluidLayout is true
-  
+
 UI.registerHelper 'talkingToServer', ->
   if AccountsEntry.settings.showSpinner is true
     Meteor.Spinner.options = AccountsEntry.settings.spinnerOptions
@@ -57,9 +57,9 @@ UI.registerHelper 'containerCSSClass', ->
       "container-fluid"
     else
       "container"
-    
+
 UI.registerHelper 'rowCSSClass', ->
   if AccountsEntry.settings.fluidLayout is true
     "row-fluid"
   else
-    "row"    
+    "row"

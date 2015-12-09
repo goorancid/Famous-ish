@@ -35,7 +35,7 @@ Template.entrySocial.events
         else
           FlowRouter.go AccountsEntry.settings.dashboardRoute
       else if (err instanceof Accounts.LoginCancelledError)
-# do nothing
+        # do nothing
       else if (err instanceof ServiceConfiguration.ConfigError)
         Accounts._loginButtonsSession.configureService(serviceName)
       else
