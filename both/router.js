@@ -95,12 +95,46 @@ exposed.route('/login', {
 });
 exposed.route('/signup', {
     name: 'signup',
-    action: function() {
+    triggersEnter: [
+        function(context, redirect) {
+            Session.set('entryError', undefined);
+            Session.set('buttonText', 'up');
+        }
+    ],
+    action: function(params) {
+        var pkgRendered, userRendered;
+        if (AccountsEntry.settings.signUpTemplate) {
+            this.template = AccountsEntry.settings.signUpTemplate;
+
+            // If the user has a custom template, and not using the helper, then
+            // maintain the package Javascript so that OpenGraph tags and share
+            // buttons still work.
+            pkgRendered = Template.entrySignUp.rendered;
+            userRendered = Template[this.template].rendered;
+
+            if (userRendered) {
+                Template[this.template].rendered = function() {
+                    pkgRendered.call(this);
+                    return userRendered.call(this);
+                };
+            } else {
+                Template[this.template].rendered = pkgRendered;
+            }
+
+            Template[this.template].events(AccountsEntry.entrySignUpEvents);
+            Template[this.template].helpers(AccountsEntry.entrySignUpHelpers);
+        }
         BlazeLayout.render('adminLayout', {main: 'signup'});
     }
 });
+
+clearEntryError = function(context, redirect) {
+    Session.set('entryError', undefined);
+};
+
 exposed.route('/forgot', {
     name: 'forgot',
+    triggersEnter: [clearEntryError],
     action: function() {
         BlazeLayout.render('adminLayout', {main: 'forgot'});
     }
