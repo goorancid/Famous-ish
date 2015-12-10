@@ -1,6 +1,8 @@
 <template name="login">
     <div class="{{containerCSSClass}}">
         <div class="{{rowCSSClass}}">
+            {{> loginButtons}}
+
             {{#if logo}}
                 <div class="entry-logo">
                     <a href="/"><img src="{{logo}}" alt="logo"></a>
