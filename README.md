@@ -5,7 +5,7 @@ A meteor webapp with both frontend and admin pages utlizing FlowRouter.
 
 Made with AdminLTE2. 
 
-##This site is guarenteed not to work properly because it is under heavy development as of 07 Dec 2015
+##This site is guarenteed not to work properly because it is under heavy development as of 10 Dec 2015
 
 
 ### Routes
