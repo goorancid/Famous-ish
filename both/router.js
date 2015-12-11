@@ -67,7 +67,7 @@ exposed.route('/login', {
         var pkgRendered, userRendered;
 
         if (Meteor.userId()) {
-            redirect(AccountsEntry.settings.dashboardRoute);
+            BlazeLayout.render('adminLayout', {main: 'dashboard'});
         }
         if (AccountsEntry.settings.signInTemplate) {
             this.template = AccountsEntry.settings.signInTemplate;

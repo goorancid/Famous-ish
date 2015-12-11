@@ -1,8 +1,5 @@
 
 // Verify account against email
-Accounts.config({
-    sendVerificationEmail: true
-});
 
 // server
 Meteor.publish("userData", function () {
