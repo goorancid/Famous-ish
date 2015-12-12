@@ -11,7 +11,7 @@ Made with AdminLTE2.
 ### Routes
 ######Located in /both/routes.js
 ######Routes are made using [FlowRouter by kadirahq](https://github.com/kadirahq/flow-router)
-######Currently using javascript (as of 07 Dec 2015) but will translate into coffeescript files at some point in the future
+######Currently using javascript (as of 11 Dec 2015) but will translate into coffeescript files at some point in the future
 
 
 ### Templates
