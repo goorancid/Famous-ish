@@ -61,6 +61,8 @@ exposed.route('/terms', {
         BlazeLayout.render('homeLayout', {main: 'terms'});
     }
 });
+
+// Account routes
 exposed.route('/login', {
     name: 'login',
     action: function(params) {
@@ -223,3 +225,18 @@ logged.route('/profile', {
 //        }
 //    }
 //});
+
+
+
+// Logs out account on other clients
+Accounts.onLogin(function() {
+    Meteor.logoutOtherClients();
+    return Session.set('logged', true);
+});
+
+//
+FlowRouter.notFound = {
+    action: function() {
+        BlazeLayout.render('adminLayout', {main: 'notfound'});
+    }
+};
