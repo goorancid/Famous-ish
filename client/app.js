@@ -23,7 +23,7 @@ Template.topbar.events({
     }
 });
 
-Template.login.events = {
+Template.login.events ({
     "submit #login": function(event) {
         var email;
         event.preventDefault();
@@ -47,4 +47,4 @@ Template.login.events = {
             }
         });
     }
-};
+});

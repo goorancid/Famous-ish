@@ -13,8 +13,6 @@ if (Meteor.isClient) {
             return Session.get('entryError');
         }
     });
-    Template.main.company = function () {
-        return Company.find();
-    };
+
 }
 
