@@ -229,10 +229,10 @@ logged.route('/profile', {
 
 
 // Logs out account on other clients
-Accounts.onLogin(function() {
-    Meteor.logoutOtherClients();
-    return Session.set('logged', true);
-});
+//Accounts.onLogin(function() {
+//    Meteor.logoutOtherClients();
+//    return Session.set('logged', true);
+//});
 
 //
 FlowRouter.notFound = {
