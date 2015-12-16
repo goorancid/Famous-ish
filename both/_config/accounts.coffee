@@ -36,6 +36,7 @@ Accounts.config
   and: "and"
   "Match failed":  "Match failed"
   "User not found":  "User not found"
+  version: '1.0.0'
 
   error:
     minChar: "7 character minimum password."
