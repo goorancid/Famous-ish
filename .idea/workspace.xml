@@ -2,13 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28243564-d5bf-4833-8f2e-0492fce9e4b3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/entry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/entry/accountButtons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/entry/enrollAccount.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/entry/extraSignUpFields.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/entry/forgotPassword.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/entry/resetPassword.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/entry/social.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/entry/verificationPending.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/entry.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/entry.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/partials/adminFooter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/accountButtons.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/enrollAccount.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/extraSignUpFields.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/forgotPassword.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/resetPassword.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/signedIn.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/social.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/verificationPending.coffee" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/views/_wrapLinks.html" afterPath="$PROJECT_DIR$/client/views/entry/_wrapLinks.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/views/accountButtons.html" afterPath="$PROJECT_DIR$/client/views/entry/accountButtons.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/views/enrollAccount.html" afterPath="$PROJECT_DIR$/client/views/entry/enrollAccount.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/views/error.html" afterPath="$PROJECT_DIR$/client/views/entry/error.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/views/extraSignUpFields.html" afterPath="$PROJECT_DIR$/client/views/entry/extraSignUpFields.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/views/forgotPassword.html" afterPath="$PROJECT_DIR$/client/views/entry/forgotPassword.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/views/login.html" afterPath="$PROJECT_DIR$/client/views/entry/login.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/views/resetPassword.html" afterPath="$PROJECT_DIR$/client/views/entry/resetPassword.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/views/social.html" afterPath="$PROJECT_DIR$/client/views/entry/social.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/views/verificationPending.html" afterPath="$PROJECT_DIR$/client/views/entry/verificationPending.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/both/_config/_config.coffee" afterPath="$PROJECT_DIR$/both/_config/_config.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/both/_config/accounts.coffee" afterPath="$PROJECT_DIR$/both/_config/accounts.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/partials/footer.html" afterPath="$PROJECT_DIR$/client/partials/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app.js" afterPath="$PROJECT_DIR$/client/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/partials/breadcrumb.html" afterPath="$PROJECT_DIR$/client/partials/breadcrumb.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/styles/AdminLTE.css" afterPath="$PROJECT_DIR$/client/styles/AdminLTE.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/styles/admin.css" afterPath="$PROJECT_DIR$/client/styles/admin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/company.html" afterPath="$PROJECT_DIR$/client/views/company.html" />
     </list>
     <ignored path="blank.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,161 +56,102 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="company.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/views/company.html">
+      <file leaf-file-name="extraSignUpFields.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/entry/extraSignUpFields.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384">
-              <caret line="3" column="40" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="40" />
+            <state vertical-scroll-proportion="-12.423077">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminLTE.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/styles/AdminLTE.css">
+      <file leaf-file-name="error.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/entry/error.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.4545455">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#434#497#0" expanded="false" />
-                <element signature="e#530#567#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/styles/admin.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.192307">
-              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            <state vertical-scroll-proportion="-3.2692308">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/partials/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2851153">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminFooter.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/partials/adminFooter.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminLayout.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/layouts/adminLayouts/adminLayout.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="23" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homeFooter.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/partials/homeFooter.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="11.769231">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_config.coffee" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/both/_config/_config.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5555553">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="accounts.coffee" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/both/_config/accounts.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.8888888">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/both/router.js">
+      <file leaf-file-name="enrollAccount.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/entry/enrollAccount.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-              <folding>
-                <element signature="e#339#455#0" expanded="false" />
-                <element signature="e#385#453#0" expanded="false" />
-                <element signature="e#480#588#0" expanded="false" />
-                <element signature="e#522#586#0" expanded="false" />
-                <element signature="e#610#720#0" expanded="false" />
-                <element signature="e#653#718#0" expanded="false" />
-                <element signature="e#749#865#0" expanded="false" />
-                <element signature="e#795#863#0" expanded="false" />
-                <element signature="e#894#1010#0" expanded="false" />
-                <element signature="e#940#1008#0" expanded="false" />
-                <element signature="e#1040#1158#0" expanded="false" />
-                <element signature="e#1087#1156#0" expanded="false" />
-                <element signature="e#1187#1303#0" expanded="false" />
-                <element signature="e#1233#1301#0" expanded="false" />
-                <element signature="e#1330#1442#0" expanded="false" />
-                <element signature="e#1374#1440#0" expanded="false" />
-                <element signature="e#1488#2642#0" expanded="false" />
-                <element signature="e#1538#2468#0" expanded="false" />
-                <element signature="e#1609#1688#0" expanded="false" />
-                <element signature="e#1740#2402#0" expanded="false" />
-                <element signature="e#1957#2151#0" expanded="false" />
-                <element signature="e#2021#2136#0" expanded="false" />
-                <element signature="e#2157#2236#0" expanded="false" />
-                <element signature="e#2489#2639#0" expanded="false" />
-                <element signature="e#2527#2633#0" expanded="false" />
-                <element signature="e#2670#3914#0" expanded="false" />
-                <element signature="e#2711#2861#0" expanded="false" />
-                <element signature="e#2749#2855#0" expanded="false" />
-                <element signature="e#2892#3912#0" expanded="false" />
-                <element signature="e#2984#3845#0" expanded="false" />
-                <element signature="e#3066#3134#0" expanded="false" />
-                <element signature="e#3399#3593#0" expanded="false" />
-                <element signature="e#3463#3578#0" expanded="false" />
-                <element signature="e#3599#3678#0" expanded="false" />
-                <element signature="e#3964#4009#0" expanded="false" />
-                <element signature="e#4037#4190#0" expanded="false" />
-                <element signature="e#4120#4188#0" expanded="false" />
-                <element signature="e#4194#4252#0" expanded="false" />
-                <element signature="e#4360#4748#0" expanded="false" />
-                <element signature="e#4381#4746#0" expanded="false" />
-                <element signature="e#4402#4740#0" expanded="false" />
-                <element signature="e#4485#4730#0" expanded="false" />
-                <element signature="e#4583#4669#0" expanded="false" />
-                <element signature="e#4779#4900#0" expanded="false" />
-                <element signature="e#4827#4898#0" expanded="false" />
-                <element signature="e#4931#5054#0" expanded="false" />
-                <element signature="e#4980#5052#0" expanded="false" />
-                <element signature="e#5260#5389#0" expanded="false" />
-                <element signature="e#5312#5387#0" expanded="false" />
-                <element signature="e#5432#5536#0" expanded="false" />
-                <element signature="e#5465#5534#0" expanded="false" />
-                <element signature="e#5576#5695#0" expanded="false" />
-                <element signature="e#5623#5693#0" expanded="false" />
-                <element signature="e#5733#5850#0" expanded="false" />
-                <element signature="e#5779#5848#0" expanded="false" />
-              </folding>
+              <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accountButtons.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/entry/accountButtons.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/views/entry/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5702306">
+              <caret line="46" column="87" selection-start-line="46" selection-start-column="87" selection-end-line="46" selection-end-column="87" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="entry.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/entry.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="entry.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/styles/entry.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.076923">
+              <caret line="127" column="19" selection-start-line="127" selection-start-column="19" selection-end-line="127" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="topbar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/partials/topbar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.8461537">
+              <caret line="210" column="28" selection-start-line="210" selection-start-column="28" selection-end-line="210" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extraSignUpFields.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/entry/extraSignUpFields.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -196,28 +164,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/Desktop/accounts-entry-master/LICENSE" />
-        <option value="$USER_HOME$/Desktop/accounts-entry-master/package.js" />
-        <option value="$PROJECT_DIR$/packages/accounts-flowentry/client/views/signIn/signIn.html" />
-        <option value="$USER_HOME$/Desktop/accounts-entry-master/shared/router.js" />
-        <option value="$PROJECT_DIR$/packages/accounts-flowentry/shared/router.js" />
-        <option value="$PROJECT_DIR$/packages/accounts-flowentry/client/views/accountButtons/accountButtons.coffee" />
-        <option value="$PROJECT_DIR$/packages/accounts-flowentry/client/views/signUp/signUp.coffee" />
-        <option value="$PROJECT_DIR$/packages/accounts-flowentry/client/entry.coffee" />
-        <option value="$USER_HOME$/Desktop/accounts-entry-master - Copy/shared/router.js" />
-        <option value="$PROJECT_DIR$/server/entry.coffee" />
-        <option value="$PROJECT_DIR$/client/entry.coffee" />
-        <option value="$PROJECT_DIR$/packages/accounts-flowentry/client/t9n/english.coffee" />
-        <option value="$PROJECT_DIR$/both/collections/company.js" />
-        <option value="$PROJECT_DIR$/packages/accounts-flowentry/client/views/accountButtons/_wrapLinks.html" />
-        <option value="$PROJECT_DIR$/client/views/frontend/contact.html" />
         <option value="$PROJECT_DIR$/client/views/frontend/about.html" />
         <option value="$PROJECT_DIR$/client/views/frontend/pricing.html" />
         <option value="$PROJECT_DIR$/client/views/frontend/privacy.html" />
         <option value="$PROJECT_DIR$/client/views/frontend/services.html" />
         <option value="$PROJECT_DIR$/client/views/frontend/support.html" />
-        <option value="$PROJECT_DIR$/client/styles/entry.css" />
-        <option value="$PROJECT_DIR$/client/entry.js" />
         <option value="$PROJECT_DIR$/both/helpers/entry.js" />
         <option value="$PROJECT_DIR$/both/_config.js" />
         <option value="$PROJECT_DIR$/both/signIn.js" />
@@ -236,17 +187,34 @@
         <option value="$PROJECT_DIR$/client/views/login.js" />
         <option value="$PROJECT_DIR$/client/views/social.html" />
         <option value="$PROJECT_DIR$/client/partials/topbar.html" />
-        <option value="$PROJECT_DIR$/client/app.js" />
         <option value="$PROJECT_DIR$/both/helpers.js" />
-        <option value="$PROJECT_DIR$/client/views/login.html" />
         <option value="$PROJECT_DIR$/both/router.js" />
         <option value="$PROJECT_DIR$/client/views/company.html" />
-        <option value="$PROJECT_DIR$/client/styles/AdminLTE.css" />
-        <option value="$PROJECT_DIR$/client/styles/admin.css" />
         <option value="$PROJECT_DIR$/both/_config/_config.coffee" />
         <option value="$PROJECT_DIR$/both/_config/accounts.coffee" />
         <option value="$PROJECT_DIR$/client/layouts/adminLayouts/adminLayout.html" />
         <option value="$PROJECT_DIR$/client/partials/footer.html" />
+        <option value="$PROJECT_DIR$/client/partials/breadcrumb.html" />
+        <option value="$PROJECT_DIR$/client/styles/AdminLTE.css" />
+        <option value="$PROJECT_DIR$/client/styles/admin.css" />
+        <option value="$PROJECT_DIR$/client/views/entry/signedIn.html" />
+        <option value="$PROJECT_DIR$/client/views/entry/social.js" />
+        <option value="$PROJECT_DIR$/client/views/entry/verificationPending.coffee" />
+        <option value="$PROJECT_DIR$/client/views/entry/verificationPending.js" />
+        <option value="$PROJECT_DIR$/client/views/entry/resetPassword.js" />
+        <option value="$PROJECT_DIR$/client/views/entry/forgotPassword.coffee" />
+        <option value="$PROJECT_DIR$/client/views/entry/forgotPassword.js" />
+        <option value="$PROJECT_DIR$/client/views/entry/extraSignUpFields.js" />
+        <option value="$PROJECT_DIR$/client/views/entry/enrollAccount.coffee" />
+        <option value="$PROJECT_DIR$/client/views/entry/enrollAccount.js" />
+        <option value="$PROJECT_DIR$/client/views/entry/accountButtons.coffee" />
+        <option value="$PROJECT_DIR$/client/views/entry/accountButtons.js" />
+        <option value="$PROJECT_DIR$/client/views/entry.js" />
+        <option value="$PROJECT_DIR$/client/entry.js" />
+        <option value="$PROJECT_DIR$/client/entry.less" />
+        <option value="$PROJECT_DIR$/client/styles/entry.css" />
+        <option value="$PROJECT_DIR$/client/views/login.html" />
+        <option value="$PROJECT_DIR$/client/app.js" />
       </list>
     </option>
   </component>
@@ -314,6 +282,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -350,7 +332,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
+              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -417,7 +399,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/meteor-starter-admin-lte-master" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="js.meteor.project" value="true" />
@@ -425,11 +407,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Goorancid\websites\blank\client\views\entry" />
+      <recent name="C:\Users\Goorancid\websites\blank\client" />
       <recent name="C:\Users\Goorancid\websites\blank\both" />
       <recent name="C:\Users\Goorancid\websites\blank\client\views" />
       <recent name="C:\Users\Goorancid\websites\blank\packages\accounts-flowentry\client\views\accountButtons" />
-      <recent name="C:\Users\Goorancid\websites\blank\packages\accounts-flowentry\client\views\resetPassword" />
-      <recent name="C:\Users\Goorancid\websites\blank\client\lib" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Goorancid\websites\blank\both" />
@@ -499,16 +481,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19518378" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19518378" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28629032" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28532976" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -555,22 +537,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/both/app.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09497207">
-          <caret line="4" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/both/collections/company.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18994413">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.meteor/packages">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.962963">
@@ -667,31 +633,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/verificationPending.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/verificationPending.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/resetPassword.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/enrollAccount.coffee">
+    <entry file="file://$PROJECT_DIR$/client/views/entry/verificationPending.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -702,46 +644,6 @@
     <entry file="file://$USER_HOME$/Desktop/DDS/company.json">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/resetPassword.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/forgotPassword.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/_wrapLinks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/accountButtons.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="18" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/accountButtons.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5345912">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/publish.js">
@@ -768,54 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/extraSignUpFields.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.423077">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/extraSignUpFields.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/social.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.962963">
-          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/enrollAccount.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60587">
-          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/forgotPassword.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/accounts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -824,23 +678,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/entry.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6866665">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/entry.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.185185">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/social.html">
+    <entry file="file://$PROJECT_DIR$/client/views/entry/social.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.65384614">
           <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
@@ -853,32 +691,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/partials/topbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.192307">
-          <caret line="238" column="33" selection-start-line="238" selection-start-column="32" selection-end-line="240" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.076923">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="48" selection-end-column="30" />
-          <folding>
-            <element signature="n#template#2;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -954,25 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/styles/AdminLTE.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.4545455">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#434#497#0" expanded="false" />
-            <element signature="e#530#567#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/partials/adminFooter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/both/_config/accounts.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.8888888">
@@ -999,24 +792,195 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/layouts/adminLayouts/adminLayout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="23" selection-end-column="13" />
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/styles/admin.css">
+    <entry file="file://$PROJECT_DIR$/client/partials/breadcrumb.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.192307">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/partials/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2851153">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-226.73077">
+          <caret line="948" column="1" selection-start-line="948" selection-start-column="1" selection-end-line="948" selection-end-column="1" />
+          <folding>
+            <element signature="e#864#933#0" expanded="false" />
+            <element signature="e#966#1007#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/AdminLTE.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.418182">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/entry/_wrapLinks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/entry/accountButtons.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/entry/forgotPassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/entry/enrollAccount.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/entry/resetPassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/entry/social.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="75" column="2" selection-start-line="75" selection-start-column="2" selection-end-line="75" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/entry/verificationPending.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/entry/resetPassword.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="3" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/entry/forgotPassword.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/partials/topbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="210" column="28" selection-start-line="210" selection-start-column="28" selection-end-line="210" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/entry/extraSignUpFields.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/entry/extraSignUpFields.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/entry/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/entry/enrollAccount.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/entry.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.076923">
+          <caret line="127" column="19" selection-start-line="127" selection-start-column="19" selection-end-line="127" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/entry/accountButtons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/entry/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5702306">
+          <caret line="46" column="87" selection-start-line="46" selection-start-column="87" selection-end-line="46" selection-end-column="87" />
           <folding />
         </state>
       </provider>

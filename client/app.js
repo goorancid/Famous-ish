@@ -24,7 +24,7 @@ Template.topbar.events({
 });
 
 Template.login.events ({
-    "submit #login": function(event) {
+    "click #login": function(event) {
         var email;
         event.preventDefault();
         email = $('input[name="email"]').val();
@@ -43,8 +43,10 @@ Template.login.events ({
                 FlowRouter.go(Session.get('fromWhere'));
                 return Session.set('fromWhere', void 0);
             } else {
-                return FlowRouter.go("dashboardRoute");
+                return FlowRouter.go('dashboard');
             }
         });
+
     }
+
 });
