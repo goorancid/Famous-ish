@@ -1,5 +1,5 @@
 var entryAccountButtonsHelpers;
-
+Template.entrySignedIn.helpers(entryAccountButtonsHelpers);
 Template.entryAccountButtons.helpers(entryAccountButtonsHelpers);
 
 Template.entryAccountButtons.helpers({
@@ -13,7 +13,7 @@ Template.entryAccountButtons.helpers({
     }
 });
 
-Template.entrySignedIn.helpers(entryAccountButtonsHelpers);
+
 
 entryAccountButtonsHelpers = {
     profileUrl: function() {

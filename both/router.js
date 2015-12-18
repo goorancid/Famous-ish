@@ -164,7 +164,7 @@ logged = FlowRouter.group({
     ]
 });
 
-logged.route('/dashboard', {
+    logged.route('/dashboard', {
     name: 'dashboard',
     action: function() {
         BlazeLayout.render('adminLayout', {main: 'dashboard'});

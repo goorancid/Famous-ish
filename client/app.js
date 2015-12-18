@@ -43,7 +43,7 @@ Template.login.events ({
                 FlowRouter.go(Session.get('fromWhere'));
                 return Session.set('fromWhere', void 0);
             } else {
-                return FlowRouter.go('dashboard');
+                FlowRouter.go('dashboardRoute');
             }
         });
 
