@@ -1,9 +1,11 @@
 <template name="footer">
     <footer class="main-footer">
-        <div class="pull-right hidden-xs">
-            <p>Version {{Config.version}}.</p>
+        <div class="pull-left hidden-xs">
+            {{Config.footer}} All rights reserved.
         </div>
-        <p>{{Config.footer}} All rights reserved.</p>
+        <div class="pull-right hidden-xs">
+            Version {{Config.version}}.
+        </div>
     </footer>
 </template>
 
