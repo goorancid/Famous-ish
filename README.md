@@ -5,7 +5,7 @@ A meteor webapp with both frontend and admin pages utlizing FlowRouter.
 
 Made with AdminLTE2. 
 
-##This site is guarenteed not to work properly because it is under heavy development as of 07 Dec 2015
+##This site is guarenteed not to work properly because it is under heavy development as of 24 Jan 2016
 
 
 ### Routes
@@ -21,7 +21,7 @@ Made with AdminLTE2.
 
 ### CSS Styling
 ######Located in /client/styles
-######Utilizes the Bootstrap package (current version 3.3.6 as of 07 Dec 2015) 
+######Utilizes the Bootstrap package (current version 3.3.6 as of 24 Jan 2016) 
 ######Additional formatting and overrides are split into frontend and admin-side files
 
 
